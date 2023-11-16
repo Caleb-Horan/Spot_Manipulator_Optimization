@@ -1,0 +1,94 @@
+[0.899s] Invoking command in '/home/caleb/ros2_ws/build/spot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake /home/caleb/ros2_ws/src/spot_ros/spot_description -DCMAKE_INSTALL_PREFIX=/home/caleb/ros2_ws/install/spot_description
+[0.920s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.924s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.003s] -- Configuring done
+[1.007s] -- Generating done
+[1.007s] -- Build files have been written to: /home/caleb/ros2_ws/build/spot_description
+[1.334s] Invoked command in '/home/caleb/ros2_ws/build/spot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake /home/caleb/ros2_ws/src/spot_ros/spot_description -DCMAKE_INSTALL_PREFIX=/home/caleb/ros2_ws/install/spot_description
+[1.336s] Invoking command in '/home/caleb/ros2_ws/build/spot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --build /home/caleb/ros2_ws/build/spot_description -- -j20 -l20
+[1.350s] Invoked command in '/home/caleb/ros2_ws/build/spot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --build /home/caleb/ros2_ws/build/spot_description -- -j20 -l20
+[1.382s] Invoking command in '/home/caleb/ros2_ws/build/spot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --install /home/caleb/ros2_ws/build/spot_description
+[1.408s] -- Install configuration: "Release"
+[1.409s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/launch
+[1.409s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/launch/urdf.rviz
+[1.409s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/launch/state_publisher.launch.py
+[1.409s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/launch/gazebo.launch
+[1.409s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/launch/opt_gazebo_sim.launch.py
+[1.409s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/launch/controller.yaml
+[1.409s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/launch/display.launch
+[1.409s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/launch/description.launch.py
+[1.409s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/launch/controller.launch
+[1.409s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/urdf
+[1.409s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/urdf/realsense_mount.urdf.xacro
+[1.409s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/urdf/spot_with_arm.urdf.xacro
+[1.409s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/urdf/arm
+[1.409s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/urdf/arm/spot_arm.trans
+[1.409s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/urdf/arm/spot_arm.urdf.xacro
+[1.409s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/urdf/arm/materials.xacro
+[1.409s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/urdf/arm/spot_arm.gazebo
+[1.410s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/urdf/spot.urdf.xacro
+[1.410s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/urdf/empty.urdf
+[1.410s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes
+[1.410s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/accessories
+[1.410s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/accessories/eap_lidar.STL
+[1.410s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/accessories/eap_lidar.stl
+[1.413s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/accessories/eap_lidar.step
+[1.413s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/realsense
+[1.413s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/realsense/camera_interface.dae
+[1.417s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/realsense/slider_rev.dae
+[1.418s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/realsense/chin_top.dae
+[1.419s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/realsense/chin.dae
+[1.421s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/realsense/slider_reg.dae
+[1.421s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/arm
+[1.422s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/arm/arm0.link_sh0.obj
+[1.428s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/arm/arm0.link_fngr.obj
+[1.428s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/arm/arm0.link_wr0.obj
+[1.440s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/arm/arm0.link_sh1.obj
+[1.441s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/arm/arm0.link_el0.obj
+[1.442s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/arm/arm0.link_el1.obj
+[1.443s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/arm/arm0.link_hr0.obj
+[1.443s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/arm/arm0.link_wr1.obj
+[1.444s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/body
+[1.444s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/body/front_left_upper_leg.dae
+[1.444s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/body/rear_left_lower_leg_collision.stl
+[1.444s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/body/front_right_upper_leg.dae
+[1.444s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/body/front_right_hip_collision.stl
+[1.445s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/body/rear_left_hip.dae
+[1.445s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/body/rear_right_hip_collision.stl
+[1.446s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/body/front_left_hip_collision.stl
+[1.447s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/body/front_left_upper_leg_collision.stl
+[1.448s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/body/front_right_lower_leg.dae
+[1.449s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/body/body_collision.stl
+[1.449s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/body/rear_right_lower_leg.dae
+[1.450s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/body/front_right_lower_leg_collision.stl
+[1.451s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/body/front_left_hip.dae
+[1.452s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/body/front_left_lower_leg.dae
+[1.452s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/body/rear_right_upper_leg_collision.stl
+[1.452s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/body/rear_right_upper_leg.dae
+[1.453s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/body/front_left_lower_leg_collision.stl
+[1.453s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/body/rear_right_hip.dae
+[1.453s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/body/front_right_upper_leg_collision.stl
+[1.457s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/body/rear_left_hip_collision.stl
+[1.459s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/body/body.dae
+[1.460s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/body/front_right_hip.dae
+[1.462s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/body/rear_left_lower_leg.dae
+[1.463s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/body/spot_mat.png
+[1.463s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/body/rear_right_lower_leg_collision.stl
+[1.464s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/body/rear_left_upper_leg.dae
+[1.465s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/meshes/body/rear_left_upper_leg_collision.stl
+[1.466s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/ament_index/resource_index/package_run_dependencies/spot_description
+[1.467s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/ament_index/resource_index/parent_prefix_path/spot_description
+[1.468s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/environment/ament_prefix_path.sh
+[1.469s] -- Installing: /home/caleb/ros2_ws/install/spot_description/share/spot_description/environment/ament_prefix_path.dsv
+[1.470s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/environment/path.sh
+[1.471s] -- Installing: /home/caleb/ros2_ws/install/spot_description/share/spot_description/environment/path.dsv
+[1.471s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/local_setup.bash
+[1.471s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/local_setup.sh
+[1.472s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/local_setup.zsh
+[1.473s] -- Installing: /home/caleb/ros2_ws/install/spot_description/share/spot_description/local_setup.dsv
+[1.475s] -- Installing: /home/caleb/ros2_ws/install/spot_description/share/spot_description/package.dsv
+[1.475s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/ament_index/resource_index/packages/spot_description
+[1.476s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/cmake/spot_descriptionConfig.cmake
+[1.477s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/cmake/spot_descriptionConfig-version.cmake
+[1.478s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_description/share/spot_description/package.xml
+[2.211s] Invoked command in '/home/caleb/ros2_ws/build/spot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --install /home/caleb/ros2_ws/build/spot_description

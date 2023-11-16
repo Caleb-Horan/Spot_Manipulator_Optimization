@@ -1,0 +1,40 @@
+[0.268s] Invoking command in '/home/caleb/ros2_ws/build/spot_arm_moveit2_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --build /home/caleb/ros2_ws/build/spot_arm_moveit2_config -- -j20 -l20
+[0.542s] Invoked command in '/home/caleb/ros2_ws/build/spot_arm_moveit2_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --build /home/caleb/ros2_ws/build/spot_arm_moveit2_config -- -j20 -l20
+[0.603s] Invoking command in '/home/caleb/ros2_ws/build/spot_arm_moveit2_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --install /home/caleb/ros2_ws/build/spot_arm_moveit2_config
+[0.608s] -- Install configuration: "Release"
+[0.608s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/ament_index/resource_index/package_run_dependencies/spot_arm_moveit2_config
+[0.609s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/ament_index/resource_index/parent_prefix_path/spot_arm_moveit2_config
+[0.609s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/environment/ament_prefix_path.sh
+[0.609s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/environment/ament_prefix_path.dsv
+[0.610s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/environment/path.sh
+[0.610s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/environment/path.dsv
+[0.610s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/local_setup.bash
+[0.611s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/local_setup.sh
+[0.611s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/local_setup.zsh
+[0.611s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/local_setup.dsv
+[0.612s] -- Installing: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/package.dsv
+[0.612s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/ament_index/resource_index/packages/spot_arm_moveit2_config
+[0.612s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/cmake/spot_arm_moveit2_configConfig.cmake
+[0.613s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/cmake/spot_arm_moveit2_configConfig-version.cmake
+[0.613s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/package.xml
+[0.613s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/config
+[0.614s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/config/spot.srdf
+[0.614s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/config/cartesian_limits.yaml
+[0.614s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/config/gazebo_spot.urdf
+[0.615s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/config/ompl_planning.yaml
+[0.615s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/config/chomp_planning.yaml
+[0.616s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/config/joint_limits.yaml
+[0.616s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/config/stomp_planning.yaml
+[0.616s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/config/gazebo_controllers.yaml
+[0.617s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/config/controllers.yaml
+[0.617s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/config/simple_moveit_controllers.yaml
+[0.617s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/config/fake_controllers.yaml
+[0.618s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/config/kinematics.yaml
+[0.618s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/config/sensors_3d.yaml
+[0.618s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/launch
+[0.618s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/launch/.publishers.launch.py.swp
+[0.618s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/launch/spot_arm_planning_execution.launch.py
+[0.618s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/rviz
+[0.619s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/rviz/view_robot_backup.rviz
+[0.619s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/rviz/view_robot.rviz
+[2.064s] Invoked command in '/home/caleb/ros2_ws/build/spot_arm_moveit2_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --install /home/caleb/ros2_ws/build/spot_arm_moveit2_config

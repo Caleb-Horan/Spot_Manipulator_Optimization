@@ -1,0 +1,64 @@
+[1.951s] Invoking command in '/home/caleb/ros2_ws/build/moveit_resources_prbt_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake /home/caleb/ros2_ws/src/moveit2/moveit_planners/test_configs/prbt_support -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/caleb/ros2_ws/install/moveit_resources_prbt_support
+[2.239s] -- The C compiler identification is GNU 9.4.0
+[2.240s] -- The CXX compiler identification is GNU 9.4.0
+[2.240s] -- Detecting C compiler ABI info
+[2.241s] -- Detecting C compiler ABI info - done
+[2.241s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.241s] -- Detecting C compile features
+[2.241s] -- Detecting C compile features - done
+[2.241s] -- Detecting CXX compiler ABI info
+[2.242s] -- Detecting CXX compiler ABI info - done
+[2.242s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.242s] -- Detecting CXX compile features
+[2.243s] -- Detecting CXX compile features - done
+[2.244s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[2.245s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.245s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.277s] -- Configuring done
+[2.278s] -- Generating done
+[2.279s] -- Build files have been written to: /home/caleb/ros2_ws/build/moveit_resources_prbt_support
+[2.314s] Invoked command in '/home/caleb/ros2_ws/build/moveit_resources_prbt_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake /home/caleb/ros2_ws/src/moveit2/moveit_planners/test_configs/prbt_support -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/caleb/ros2_ws/install/moveit_resources_prbt_support
+[2.334s] Invoking command in '/home/caleb/ros2_ws/build/moveit_resources_prbt_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --build /home/caleb/ros2_ws/build/moveit_resources_prbt_support -- -j20 -l20
+[3.183s] Invoked command in '/home/caleb/ros2_ws/build/moveit_resources_prbt_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --build /home/caleb/ros2_ws/build/moveit_resources_prbt_support -- -j20 -l20
+[5.448s] Invoking command in '/home/caleb/ros2_ws/build/moveit_resources_prbt_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --install /home/caleb/ros2_ws/build/moveit_resources_prbt_support
+[5.451s] -- Install configuration: "Release"
+[5.451s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/ament_index/resource_index/package_run_dependencies/moveit_resources_prbt_support
+[5.451s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/ament_index/resource_index/parent_prefix_path/moveit_resources_prbt_support
+[5.451s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/ament_prefix_path.sh
+[5.451s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/ament_prefix_path.dsv
+[5.453s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/path.sh
+[5.454s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/path.dsv
+[5.454s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.bash
+[5.454s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.sh
+[5.454s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.zsh
+[5.454s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.dsv
+[5.454s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/package.dsv
+[5.455s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/ament_index/resource_index/packages/moveit_resources_prbt_support
+[5.456s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/cmake/moveit_resources_prbt_supportConfig.cmake
+[5.456s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/cmake/moveit_resources_prbt_supportConfig-version.cmake
+[5.457s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/package.xml
+[5.457s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf
+[5.457s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/prbt_macro.xacro
+[5.457s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/prbt.ros2_control.xacro
+[5.458s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/prbt.xacro
+[5.458s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/simple_gripper_brackets.urdf.xacro
+[5.458s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes
+[5.460s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_3.stl
+[5.460s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_5.stl
+[5.460s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_4.stl
+[5.461s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_1.stl
+[5.462s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/flange.dae
+[5.462s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_3.dae
+[5.462s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/flange.stl
+[5.462s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_5.dae
+[5.462s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_2.dae
+[5.462s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_1.dae
+[5.463s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/foot.stl
+[5.463s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_2.stl
+[5.463s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/foot.dae
+[5.464s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_4.dae
+[5.464s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config
+[5.464s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config/manipulator_controller.yaml
+[5.464s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config/manipulator_driver.yaml
+[5.464s] -- Installing: /home/caleb/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config/prbt_0_1.dcf
+[5.470s] Invoked command in '/home/caleb/ros2_ws/build/moveit_resources_prbt_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --install /home/caleb/ros2_ws/build/moveit_resources_prbt_support

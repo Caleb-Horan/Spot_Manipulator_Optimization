@@ -1,0 +1,4 @@
+source;share/optimization/local_setup.bash
+source;share/optimization/local_setup.dsv
+source;share/optimization/local_setup.sh
+source;share/optimization/local_setup.zsh

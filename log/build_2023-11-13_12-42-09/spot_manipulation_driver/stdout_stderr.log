@@ -1,0 +1,43 @@
+running egg_info
+creating ../../../build/spot_manipulation_driver/spot_manipulation_driver.egg-info
+writing ../../../build/spot_manipulation_driver/spot_manipulation_driver.egg-info/PKG-INFO
+writing dependency_links to ../../../build/spot_manipulation_driver/spot_manipulation_driver.egg-info/dependency_links.txt
+writing entry points to ../../../build/spot_manipulation_driver/spot_manipulation_driver.egg-info/entry_points.txt
+writing requirements to ../../../build/spot_manipulation_driver/spot_manipulation_driver.egg-info/requires.txt
+writing top-level names to ../../../build/spot_manipulation_driver/spot_manipulation_driver.egg-info/top_level.txt
+writing manifest file '../../../build/spot_manipulation_driver/spot_manipulation_driver.egg-info/SOURCES.txt'
+reading manifest file '../../../build/spot_manipulation_driver/spot_manipulation_driver.egg-info/SOURCES.txt'
+writing manifest file '../../../build/spot_manipulation_driver/spot_manipulation_driver.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/caleb/ros2_ws/build/spot_manipulation_driver/build
+creating /home/caleb/ros2_ws/build/spot_manipulation_driver/build/lib
+creating /home/caleb/ros2_ws/build/spot_manipulation_driver/build/lib/spot_manipulation_driver
+copying spot_manipulation_driver/__init__.py -> /home/caleb/ros2_ws/build/spot_manipulation_driver/build/lib/spot_manipulation_driver
+copying spot_manipulation_driver/manipulation_driver_util.py -> /home/caleb/ros2_ws/build/spot_manipulation_driver/build/lib/spot_manipulation_driver
+creating /home/caleb/ros2_ws/build/spot_manipulation_driver/build/lib/scripts
+copying scripts/follow_joint_trajectory_action_server.py -> /home/caleb/ros2_ws/build/spot_manipulation_driver/build/lib/scripts
+copying scripts/__init__.py -> /home/caleb/ros2_ws/build/spot_manipulation_driver/build/lib/scripts
+running install
+running install_lib
+creating /home/caleb/ros2_ws/install/spot_manipulation_driver/lib/python3.8/site-packages/scripts
+copying /home/caleb/ros2_ws/build/spot_manipulation_driver/build/lib/scripts/follow_joint_trajectory_action_server.py -> /home/caleb/ros2_ws/install/spot_manipulation_driver/lib/python3.8/site-packages/scripts
+copying /home/caleb/ros2_ws/build/spot_manipulation_driver/build/lib/scripts/__init__.py -> /home/caleb/ros2_ws/install/spot_manipulation_driver/lib/python3.8/site-packages/scripts
+creating /home/caleb/ros2_ws/install/spot_manipulation_driver/lib/python3.8/site-packages/spot_manipulation_driver
+copying /home/caleb/ros2_ws/build/spot_manipulation_driver/build/lib/spot_manipulation_driver/__init__.py -> /home/caleb/ros2_ws/install/spot_manipulation_driver/lib/python3.8/site-packages/spot_manipulation_driver
+copying /home/caleb/ros2_ws/build/spot_manipulation_driver/build/lib/spot_manipulation_driver/manipulation_driver_util.py -> /home/caleb/ros2_ws/install/spot_manipulation_driver/lib/python3.8/site-packages/spot_manipulation_driver
+byte-compiling /home/caleb/ros2_ws/install/spot_manipulation_driver/lib/python3.8/site-packages/scripts/follow_joint_trajectory_action_server.py to follow_joint_trajectory_action_server.cpython-38.pyc
+byte-compiling /home/caleb/ros2_ws/install/spot_manipulation_driver/lib/python3.8/site-packages/scripts/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/caleb/ros2_ws/install/spot_manipulation_driver/lib/python3.8/site-packages/spot_manipulation_driver/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/caleb/ros2_ws/install/spot_manipulation_driver/lib/python3.8/site-packages/spot_manipulation_driver/manipulation_driver_util.py to manipulation_driver_util.cpython-38.pyc
+running install_data
+creating /home/caleb/ros2_ws/install/spot_manipulation_driver/share/ament_index
+creating /home/caleb/ros2_ws/install/spot_manipulation_driver/share/ament_index/resource_index
+creating /home/caleb/ros2_ws/install/spot_manipulation_driver/share/ament_index/resource_index/packages
+copying resource/spot_manipulation_driver -> /home/caleb/ros2_ws/install/spot_manipulation_driver/share/ament_index/resource_index/packages
+copying package.xml -> /home/caleb/ros2_ws/install/spot_manipulation_driver/share/spot_manipulation_driver
+running install_egg_info
+Copying ../../../build/spot_manipulation_driver/spot_manipulation_driver.egg-info to /home/caleb/ros2_ws/install/spot_manipulation_driver/lib/python3.8/site-packages/spot_manipulation_driver-0.0.0-py3.8.egg-info
+running install_scripts
+Installing follow_joint_trajectory_action_server script to /home/caleb/ros2_ws/install/spot_manipulation_driver/lib/spot_manipulation_driver
+writing list of installed files to '/home/caleb/ros2_ws/build/spot_manipulation_driver/install.log'

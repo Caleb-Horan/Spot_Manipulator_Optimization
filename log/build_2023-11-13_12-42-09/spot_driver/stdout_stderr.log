@@ -1,0 +1,53 @@
+running egg_info
+creating ../../../build/spot_driver/spot_driver.egg-info
+writing ../../../build/spot_driver/spot_driver.egg-info/PKG-INFO
+writing dependency_links to ../../../build/spot_driver/spot_driver.egg-info/dependency_links.txt
+writing entry points to ../../../build/spot_driver/spot_driver.egg-info/entry_points.txt
+writing requirements to ../../../build/spot_driver/spot_driver.egg-info/requires.txt
+writing top-level names to ../../../build/spot_driver/spot_driver.egg-info/top_level.txt
+writing manifest file '../../../build/spot_driver/spot_driver.egg-info/SOURCES.txt'
+reading manifest file '../../../build/spot_driver/spot_driver.egg-info/SOURCES.txt'
+writing manifest file '../../../build/spot_driver/spot_driver.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/caleb/ros2_ws/build/spot_driver/build
+creating /home/caleb/ros2_ws/build/spot_driver/build/lib
+creating /home/caleb/ros2_ws/build/spot_driver/build/lib/spot_driver
+copying spot_driver/spot_ros.py -> /home/caleb/ros2_ws/build/spot_driver/build/lib/spot_driver
+copying spot_driver/spot_driver.py -> /home/caleb/ros2_ws/build/spot_driver/build/lib/spot_driver
+copying spot_driver/ros_helpers.py -> /home/caleb/ros2_ws/build/spot_driver/build/lib/spot_driver
+copying spot_driver/__init__.py -> /home/caleb/ros2_ws/build/spot_driver/build/lib/spot_driver
+copying spot_driver/async_queries.py -> /home/caleb/ros2_ws/build/spot_driver/build/lib/spot_driver
+copying spot_driver/spot_wrapper.py -> /home/caleb/ros2_ws/build/spot_driver/build/lib/spot_driver
+running install
+running install_lib
+creating /home/caleb/ros2_ws/install/spot_driver/lib/python3.8/site-packages/spot_driver
+copying /home/caleb/ros2_ws/build/spot_driver/build/lib/spot_driver/spot_ros.py -> /home/caleb/ros2_ws/install/spot_driver/lib/python3.8/site-packages/spot_driver
+copying /home/caleb/ros2_ws/build/spot_driver/build/lib/spot_driver/spot_driver.py -> /home/caleb/ros2_ws/install/spot_driver/lib/python3.8/site-packages/spot_driver
+copying /home/caleb/ros2_ws/build/spot_driver/build/lib/spot_driver/ros_helpers.py -> /home/caleb/ros2_ws/install/spot_driver/lib/python3.8/site-packages/spot_driver
+copying /home/caleb/ros2_ws/build/spot_driver/build/lib/spot_driver/__init__.py -> /home/caleb/ros2_ws/install/spot_driver/lib/python3.8/site-packages/spot_driver
+copying /home/caleb/ros2_ws/build/spot_driver/build/lib/spot_driver/async_queries.py -> /home/caleb/ros2_ws/install/spot_driver/lib/python3.8/site-packages/spot_driver
+copying /home/caleb/ros2_ws/build/spot_driver/build/lib/spot_driver/spot_wrapper.py -> /home/caleb/ros2_ws/install/spot_driver/lib/python3.8/site-packages/spot_driver
+byte-compiling /home/caleb/ros2_ws/install/spot_driver/lib/python3.8/site-packages/spot_driver/spot_ros.py to spot_ros.cpython-38.pyc
+byte-compiling /home/caleb/ros2_ws/install/spot_driver/lib/python3.8/site-packages/spot_driver/spot_driver.py to spot_driver.cpython-38.pyc
+byte-compiling /home/caleb/ros2_ws/install/spot_driver/lib/python3.8/site-packages/spot_driver/ros_helpers.py to ros_helpers.cpython-38.pyc
+byte-compiling /home/caleb/ros2_ws/install/spot_driver/lib/python3.8/site-packages/spot_driver/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/caleb/ros2_ws/install/spot_driver/lib/python3.8/site-packages/spot_driver/async_queries.py to async_queries.cpython-38.pyc
+byte-compiling /home/caleb/ros2_ws/install/spot_driver/lib/python3.8/site-packages/spot_driver/spot_wrapper.py to spot_wrapper.cpython-38.pyc
+running install_data
+creating /home/caleb/ros2_ws/install/spot_driver/share/ament_index
+creating /home/caleb/ros2_ws/install/spot_driver/share/ament_index/resource_index
+creating /home/caleb/ros2_ws/install/spot_driver/share/ament_index/resource_index/packages
+copying resource/spot_driver -> /home/caleb/ros2_ws/install/spot_driver/share/ament_index/resource_index/packages
+copying package.xml -> /home/caleb/ros2_ws/install/spot_driver/share/spot_driver
+creating /home/caleb/ros2_ws/install/spot_driver/share/spot_driver/launch
+copying launch/driver.launch.py -> /home/caleb/ros2_ws/install/spot_driver/share/spot_driver/launch
+creating /home/caleb/ros2_ws/install/spot_driver/share/spot_driver/config
+copying config/planar.yaml -> /home/caleb/ros2_ws/install/spot_driver/share/spot_driver/config
+copying config/twist_mux.yaml -> /home/caleb/ros2_ws/install/spot_driver/share/spot_driver/config
+copying config/spot_ros.yaml -> /home/caleb/ros2_ws/install/spot_driver/share/spot_driver/config
+running install_egg_info
+Copying ../../../build/spot_driver/spot_driver.egg-info to /home/caleb/ros2_ws/install/spot_driver/lib/python3.8/site-packages/spot_driver-2.0.0-py3.8.egg-info
+running install_scripts
+Installing driver script to /home/caleb/ros2_ws/install/spot_driver/lib/spot_driver
+writing list of installed files to '/home/caleb/ros2_ws/build/spot_driver/install.log'

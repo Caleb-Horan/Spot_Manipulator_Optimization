@@ -1,0 +1,49 @@
+[0.573s] Invoking command in '/home/caleb/ros2_ws/build/grass_plane': /usr/local/bin/cmake /home/caleb/ros2_ws/src/gazebo_models_worlds_collection/models/grass_plane -DCMAKE_INSTALL_PREFIX=/home/caleb/ros2_ws/install/grass_plane
+[0.833s] -- The C compiler identification is GNU 9.4.0
+[0.833s] -- The CXX compiler identification is GNU 9.4.0
+[0.834s] -- Detecting C compiler ABI info
+[0.834s] -- Detecting C compiler ABI info - done
+[0.835s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.835s] -- Detecting C compile features
+[0.835s] -- Detecting C compile features - done
+[0.836s] -- Detecting CXX compiler ABI info
+[0.837s] -- Detecting CXX compiler ABI info - done
+[0.837s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.838s] -- Detecting CXX compile features
+[0.838s] -- Detecting CXX compile features - done
+[0.839s] -- Configuring done
+[0.839s] -- Generating done
+[0.840s] -- Build files have been written to: /home/caleb/ros2_ws/build/grass_plane
+[0.840s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.841s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.842s]   contain a literal, direct call to the project() command.  Add a line of
+[0.842s]   code such as
+[0.843s] 
+[0.843s]     project(ProjectName)
+[0.843s] 
+[0.843s]   near the top of the file, but after cmake_minimum_required().
+[0.844s] 
+[0.845s]   CMake is pretending there is a "project(Project)" command on the first
+[0.845s]   line.
+[0.845s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.845s] [0m
+[0.846s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.846s]   No cmake_minimum_required command is present.  A line of code such as
+[0.846s] 
+[0.847s]     cmake_minimum_required(VERSION 3.24)
+[0.848s] 
+[0.848s]   should be added at the top of the file.  The version specified may be lower
+[0.848s]   if you wish to support older CMake versions for this project.  For more
+[0.848s]   information run "cmake --help-policy CMP0000".
+[0.848s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.848s] [0m
+[0.854s] Invoked command in '/home/caleb/ros2_ws/build/grass_plane' returned '0': /usr/local/bin/cmake /home/caleb/ros2_ws/src/gazebo_models_worlds_collection/models/grass_plane -DCMAKE_INSTALL_PREFIX=/home/caleb/ros2_ws/install/grass_plane
+[0.856s] Invoking command in '/home/caleb/ros2_ws/build/grass_plane': /usr/local/bin/cmake --build /home/caleb/ros2_ws/build/grass_plane -- -j20 -l20
+[0.863s] Invoked command in '/home/caleb/ros2_ws/build/grass_plane' returned '0': /usr/local/bin/cmake --build /home/caleb/ros2_ws/build/grass_plane -- -j20 -l20
+[1.545s] Invoking command in '/home/caleb/ros2_ws/build/grass_plane': /usr/local/bin/cmake --install /home/caleb/ros2_ws/build/grass_plane
+[1.715s] -- Install configuration: ""
+[1.716s] -- Installing: /home/caleb/ros2_ws/install/grass_plane/share/Project/gazebo_models/environments/grass_plane/model.config
+[1.717s] -- Installing: /home/caleb/ros2_ws/install/grass_plane/share/Project/gazebo_models/environments/grass_plane/model.sdf
+[1.717s] -- Installing: /home/caleb/ros2_ws/install/grass_plane/share/Project/gazebo_models/environments/grass_plane/materials/scripts/grass.material
+[1.718s] -- Installing: /home/caleb/ros2_ws/install/grass_plane/share/Project/gazebo_models/environments/grass_plane/materials/textures/grass_dry.png
+[2.128s] Invoked command in '/home/caleb/ros2_ws/build/grass_plane' returned '0': /usr/local/bin/cmake --install /home/caleb/ros2_ws/build/grass_plane

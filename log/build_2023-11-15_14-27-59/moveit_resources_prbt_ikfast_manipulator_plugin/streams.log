@@ -1,0 +1,40 @@
+[0.663s] Invoking command in '/home/caleb/ros2_ws/build/moveit_resources_prbt_ikfast_manipulator_plugin': AMENT_PREFIX_PATH=/home/caleb/ros2_ws/install/moveit_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/caleb/ros2_ws/install/moveit_core:/home/caleb/ros2_ws/install/spot_ros:/home/caleb/ros2_ws/install/spot_viz:/home/caleb/ros2_ws/install/spot_bringup:/home/caleb/ros2_ws/install/spot_navigation:/home/caleb/ros2_ws/install/spot_msgs:/home/caleb/ros2_ws/install/spot_gazebo:/home/caleb/ros2_ws/install/spot_description:/home/caleb/ros2_ws/install/spot_control:/home/caleb/ros2_ws/install/spot_arm_moveit2_config:/home/caleb/ros2_ws/install/optimization:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic LD_LIBRARY_PATH=/home/caleb/ros2_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/caleb/ros2_ws/install/moveit_core/bin:${PATH} /usr/local/bin/cmake /home/caleb/ros2_ws/src/moveit2/moveit_planners/test_configs/prbt_ikfast_manipulator_plugin -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/caleb/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin
+[0.730s] -- The C compiler identification is GNU 9.4.0
+[0.773s] -- The CXX compiler identification is GNU 9.4.0
+[0.779s] -- Detecting C compiler ABI info
+[0.808s] -- Detecting C compiler ABI info - done
+[0.812s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.813s] -- Detecting C compile features
+[0.813s] -- Detecting C compile features - done
+[0.816s] -- Detecting CXX compiler ABI info
+[0.853s] -- Detecting CXX compiler ABI info - done
+[0.862s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.862s] -- Detecting CXX compile features
+[0.863s] -- Detecting CXX compile features - done
+[0.872s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.897s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.897s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.996s] -- Found moveit_core: 2.3.4 (/home/caleb/ros2_ws/install/moveit_core/share/moveit_core/cmake)
+[1.148s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.164s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem 
+[1.234s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.246s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.316s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.350s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.440s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.606s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.611s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.631s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.632s] -- Found Threads: TRUE  
+[1.839s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.012s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[3.916s] -- Found tf2_kdl: 0.17.5 (/opt/ros/galactic/share/tf2_kdl/cmake)
+[3.936s] -- Found tf2_eigen_kdl: 0.17.5 (/opt/ros/galactic/share/tf2_eigen_kdl/cmake)
+[4.018s] -- Configuring done
+[4.057s] -- Generating done
+[4.060s] -- Build files have been written to: /home/caleb/ros2_ws/build/moveit_resources_prbt_ikfast_manipulator_plugin
+[4.080s] Invoked command in '/home/caleb/ros2_ws/build/moveit_resources_prbt_ikfast_manipulator_plugin' returned '0': AMENT_PREFIX_PATH=/home/caleb/ros2_ws/install/moveit_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/caleb/ros2_ws/install/moveit_core:/home/caleb/ros2_ws/install/spot_ros:/home/caleb/ros2_ws/install/spot_viz:/home/caleb/ros2_ws/install/spot_bringup:/home/caleb/ros2_ws/install/spot_navigation:/home/caleb/ros2_ws/install/spot_msgs:/home/caleb/ros2_ws/install/spot_gazebo:/home/caleb/ros2_ws/install/spot_description:/home/caleb/ros2_ws/install/spot_control:/home/caleb/ros2_ws/install/spot_arm_moveit2_config:/home/caleb/ros2_ws/install/optimization:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic LD_LIBRARY_PATH=/home/caleb/ros2_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/caleb/ros2_ws/install/moveit_core/bin:${PATH} /usr/local/bin/cmake /home/caleb/ros2_ws/src/moveit2/moveit_planners/test_configs/prbt_ikfast_manipulator_plugin -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/caleb/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin
+[4.081s] Invoking command in '/home/caleb/ros2_ws/build/moveit_resources_prbt_ikfast_manipulator_plugin': AMENT_PREFIX_PATH=/home/caleb/ros2_ws/install/moveit_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/caleb/ros2_ws/install/moveit_core:/home/caleb/ros2_ws/install/spot_ros:/home/caleb/ros2_ws/install/spot_viz:/home/caleb/ros2_ws/install/spot_bringup:/home/caleb/ros2_ws/install/spot_navigation:/home/caleb/ros2_ws/install/spot_msgs:/home/caleb/ros2_ws/install/spot_gazebo:/home/caleb/ros2_ws/install/spot_description:/home/caleb/ros2_ws/install/spot_control:/home/caleb/ros2_ws/install/spot_arm_moveit2_config:/home/caleb/ros2_ws/install/optimization:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic LD_LIBRARY_PATH=/home/caleb/ros2_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/caleb/ros2_ws/install/moveit_core/bin:${PATH} /usr/local/bin/cmake --build /home/caleb/ros2_ws/build/moveit_resources_prbt_ikfast_manipulator_plugin -- -j20 -l20
+[4.094s] [ 50%] [32mBuilding CXX object CMakeFiles/prbt_manipulator_moveit_ikfast_plugin.dir/src/prbt_manipulator_ikfast_moveit_plugin.cpp.o[0m
+[21.389s] [100%] [32m[1mLinking CXX shared library libprbt_manipulator_moveit_ikfast_plugin.so[0m
+[21.527s] [100%] Built target prbt_manipulator_moveit_ikfast_plugin

@@ -1,0 +1,33 @@
+[1.546s] Invoking command in '/home/caleb/ros2_ws/build/spot_viz': CMAKE_PREFIX_PATH=/home/caleb/ros2_ws/install/spot_description:/home/caleb/ros2_ws/install/spot_ros:/home/caleb/ros2_ws/install/spot_viz:/home/caleb/ros2_ws/install/spot_bringup:/home/caleb/ros2_ws/install/spot_navigation:/home/caleb/ros2_ws/install/spot_msgs:/home/caleb/ros2_ws/install/spot_gazebo:/home/caleb/ros2_ws/install/spot_control:/home/caleb/ros2_ws/install/spot_arm_moveit2_config:/home/caleb/ros2_ws/install/optimization:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake /home/caleb/ros2_ws/src/spot_ros/spot_viz -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/caleb/ros2_ws/install/spot_viz
+[1.550s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.556s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.692s] -- Configuring done
+[1.698s] -- Generating done
+[1.698s] -- Build files have been written to: /home/caleb/ros2_ws/build/spot_viz
+[1.768s] Invoked command in '/home/caleb/ros2_ws/build/spot_viz' returned '0': CMAKE_PREFIX_PATH=/home/caleb/ros2_ws/install/spot_description:/home/caleb/ros2_ws/install/spot_ros:/home/caleb/ros2_ws/install/spot_viz:/home/caleb/ros2_ws/install/spot_bringup:/home/caleb/ros2_ws/install/spot_navigation:/home/caleb/ros2_ws/install/spot_msgs:/home/caleb/ros2_ws/install/spot_gazebo:/home/caleb/ros2_ws/install/spot_control:/home/caleb/ros2_ws/install/spot_arm_moveit2_config:/home/caleb/ros2_ws/install/optimization:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake /home/caleb/ros2_ws/src/spot_ros/spot_viz -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/caleb/ros2_ws/install/spot_viz
+[1.769s] Invoking command in '/home/caleb/ros2_ws/build/spot_viz': CMAKE_PREFIX_PATH=/home/caleb/ros2_ws/install/spot_description:/home/caleb/ros2_ws/install/spot_ros:/home/caleb/ros2_ws/install/spot_viz:/home/caleb/ros2_ws/install/spot_bringup:/home/caleb/ros2_ws/install/spot_navigation:/home/caleb/ros2_ws/install/spot_msgs:/home/caleb/ros2_ws/install/spot_gazebo:/home/caleb/ros2_ws/install/spot_control:/home/caleb/ros2_ws/install/spot_arm_moveit2_config:/home/caleb/ros2_ws/install/optimization:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --build /home/caleb/ros2_ws/build/spot_viz -- -j20 -l20
+[1.813s] Invoked command in '/home/caleb/ros2_ws/build/spot_viz' returned '0': CMAKE_PREFIX_PATH=/home/caleb/ros2_ws/install/spot_description:/home/caleb/ros2_ws/install/spot_ros:/home/caleb/ros2_ws/install/spot_viz:/home/caleb/ros2_ws/install/spot_bringup:/home/caleb/ros2_ws/install/spot_navigation:/home/caleb/ros2_ws/install/spot_msgs:/home/caleb/ros2_ws/install/spot_gazebo:/home/caleb/ros2_ws/install/spot_control:/home/caleb/ros2_ws/install/spot_arm_moveit2_config:/home/caleb/ros2_ws/install/optimization:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --build /home/caleb/ros2_ws/build/spot_viz -- -j20 -l20
+[2.472s] Invoking command in '/home/caleb/ros2_ws/build/spot_viz': CMAKE_PREFIX_PATH=/home/caleb/ros2_ws/install/spot_description:/home/caleb/ros2_ws/install/spot_ros:/home/caleb/ros2_ws/install/spot_viz:/home/caleb/ros2_ws/install/spot_bringup:/home/caleb/ros2_ws/install/spot_navigation:/home/caleb/ros2_ws/install/spot_msgs:/home/caleb/ros2_ws/install/spot_gazebo:/home/caleb/ros2_ws/install/spot_control:/home/caleb/ros2_ws/install/spot_arm_moveit2_config:/home/caleb/ros2_ws/install/optimization:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --install /home/caleb/ros2_ws/build/spot_viz
+[2.506s] -- Install configuration: "Release"
+[2.506s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_viz/share/spot_viz/launch
+[2.506s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_viz/share/spot_viz/launch/view_model.launch.py
+[2.506s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_viz/share/spot_viz/launch/view_robot.launch.py
+[2.506s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_viz/share/spot_viz/rviz
+[2.506s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_viz/share/spot_viz/rviz/robot.rviz
+[2.506s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_viz/share/spot_viz/rviz/model.rviz
+[2.506s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_viz/share/ament_index/resource_index/package_run_dependencies/spot_viz
+[2.506s] -- Installing: /home/caleb/ros2_ws/install/spot_viz/share/ament_index/resource_index/parent_prefix_path/spot_viz
+[2.506s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_viz/share/spot_viz/environment/ament_prefix_path.sh
+[2.506s] -- Installing: /home/caleb/ros2_ws/install/spot_viz/share/spot_viz/environment/ament_prefix_path.dsv
+[2.506s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_viz/share/spot_viz/environment/path.sh
+[2.506s] -- Installing: /home/caleb/ros2_ws/install/spot_viz/share/spot_viz/environment/path.dsv
+[2.507s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_viz/share/spot_viz/local_setup.bash
+[2.507s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_viz/share/spot_viz/local_setup.sh
+[2.507s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_viz/share/spot_viz/local_setup.zsh
+[2.507s] -- Installing: /home/caleb/ros2_ws/install/spot_viz/share/spot_viz/local_setup.dsv
+[2.507s] -- Installing: /home/caleb/ros2_ws/install/spot_viz/share/spot_viz/package.dsv
+[2.507s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_viz/share/ament_index/resource_index/packages/spot_viz
+[2.507s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_viz/share/spot_viz/cmake/spot_vizConfig.cmake
+[2.507s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_viz/share/spot_viz/cmake/spot_vizConfig-version.cmake
+[2.507s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_viz/share/spot_viz/package.xml
+[2.917s] Invoked command in '/home/caleb/ros2_ws/build/spot_viz' returned '0': CMAKE_PREFIX_PATH=/home/caleb/ros2_ws/install/spot_description:/home/caleb/ros2_ws/install/spot_ros:/home/caleb/ros2_ws/install/spot_viz:/home/caleb/ros2_ws/install/spot_bringup:/home/caleb/ros2_ws/install/spot_navigation:/home/caleb/ros2_ws/install/spot_msgs:/home/caleb/ros2_ws/install/spot_gazebo:/home/caleb/ros2_ws/install/spot_control:/home/caleb/ros2_ws/install/spot_arm_moveit2_config:/home/caleb/ros2_ws/install/optimization:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --install /home/caleb/ros2_ws/build/spot_viz

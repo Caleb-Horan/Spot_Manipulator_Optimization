@@ -1,0 +1,21 @@
+[1.713s] Invoking command in '/home/caleb/ros2_ws/src/nrg_spot_manipulation/spot_manipulation_driver': PYTHONPATH=/home/caleb/ros2_ws/build/spot_manipulation_driver/prefix_override:/home/caleb/ros2_ws/install/spot_manipulation_driver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/spot_manipulation_driver build --build-base /home/caleb/ros2_ws/build/spot_manipulation_driver/build install --record /home/caleb/ros2_ws/build/spot_manipulation_driver/install.log --single-version-externally-managed
+[1.856s] running egg_info
+[1.856s] writing ../../../build/spot_manipulation_driver/spot_manipulation_driver.egg-info/PKG-INFO
+[1.857s] writing dependency_links to ../../../build/spot_manipulation_driver/spot_manipulation_driver.egg-info/dependency_links.txt
+[1.857s] writing entry points to ../../../build/spot_manipulation_driver/spot_manipulation_driver.egg-info/entry_points.txt
+[1.857s] writing requirements to ../../../build/spot_manipulation_driver/spot_manipulation_driver.egg-info/requires.txt
+[1.857s] writing top-level names to ../../../build/spot_manipulation_driver/spot_manipulation_driver.egg-info/top_level.txt
+[1.857s] reading manifest file '../../../build/spot_manipulation_driver/spot_manipulation_driver.egg-info/SOURCES.txt'
+[1.857s] writing manifest file '../../../build/spot_manipulation_driver/spot_manipulation_driver.egg-info/SOURCES.txt'
+[1.857s] running build
+[1.857s] running build_py
+[1.857s] running install
+[1.857s] running install_lib
+[1.858s] running install_data
+[1.858s] running install_egg_info
+[1.858s] removing '/home/caleb/ros2_ws/install/spot_manipulation_driver/lib/python3.8/site-packages/spot_manipulation_driver-0.0.0-py3.8.egg-info' (and everything under it)
+[1.858s] Copying ../../../build/spot_manipulation_driver/spot_manipulation_driver.egg-info to /home/caleb/ros2_ws/install/spot_manipulation_driver/lib/python3.8/site-packages/spot_manipulation_driver-0.0.0-py3.8.egg-info
+[1.858s] running install_scripts
+[1.858s] Installing follow_joint_trajectory_action_server script to /home/caleb/ros2_ws/install/spot_manipulation_driver/lib/spot_manipulation_driver
+[1.858s] writing list of installed files to '/home/caleb/ros2_ws/build/spot_manipulation_driver/install.log'
+[2.229s] Invoked command in '/home/caleb/ros2_ws/src/nrg_spot_manipulation/spot_manipulation_driver' returned '0': PYTHONPATH=/home/caleb/ros2_ws/build/spot_manipulation_driver/prefix_override:/home/caleb/ros2_ws/install/spot_manipulation_driver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/spot_manipulation_driver build --build-base /home/caleb/ros2_ws/build/spot_manipulation_driver/build install --record /home/caleb/ros2_ws/build/spot_manipulation_driver/install.log --single-version-externally-managed

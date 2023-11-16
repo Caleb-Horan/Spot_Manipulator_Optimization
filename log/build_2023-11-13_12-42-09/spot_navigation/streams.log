@@ -1,0 +1,59 @@
+[0.599s] Invoking command in '/home/caleb/ros2_ws/build/spot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake /home/caleb/ros2_ws/src/spot_ros/spot_navigation -DCMAKE_INSTALL_PREFIX=/home/caleb/ros2_ws/install/spot_navigation
+[0.904s] -- The C compiler identification is GNU 9.4.0
+[0.904s] -- The CXX compiler identification is GNU 9.4.0
+[0.904s] -- Detecting C compiler ABI info
+[0.904s] -- Detecting C compiler ABI info - done
+[0.904s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.905s] -- Detecting C compile features
+[0.905s] -- Detecting C compile features - done
+[0.905s] -- Detecting CXX compiler ABI info
+[0.905s] -- Detecting CXX compiler ABI info - done
+[0.905s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.905s] -- Detecting CXX compile features
+[0.905s] -- Detecting CXX compile features - done
+[0.905s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.909s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.909s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.018s] -- Configuring done
+[1.024s] -- Generating done
+[1.024s] -- Build files have been written to: /home/caleb/ros2_ws/build/spot_navigation
+[1.368s] Invoked command in '/home/caleb/ros2_ws/build/spot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake /home/caleb/ros2_ws/src/spot_ros/spot_navigation -DCMAKE_INSTALL_PREFIX=/home/caleb/ros2_ws/install/spot_navigation
+[1.369s] Invoking command in '/home/caleb/ros2_ws/build/spot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --build /home/caleb/ros2_ws/build/spot_navigation -- -j20 -l20
+[2.268s] Invoked command in '/home/caleb/ros2_ws/build/spot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --build /home/caleb/ros2_ws/build/spot_navigation -- -j20 -l20
+[2.610s] Invoking command in '/home/caleb/ros2_ws/build/spot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --install /home/caleb/ros2_ws/build/spot_navigation
+[2.613s] -- Install configuration: ""
+[2.613s] -- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/launch
+[2.613s] -- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/launch/octomap.launch.py
+[2.614s] -- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/launch/slam.launch.py
+[2.614s] -- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/launch/navigation_suite.launch.py
+[2.615s] -- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/launch/amcl.launch.py
+[2.615s] -- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/launch/navigation.launch.py
+[2.615s] -- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/map
+[2.615s] -- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/map/map.pgm
+[2.615s] -- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/map/map.yaml
+[2.615s] -- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/map/ahg.yaml
+[2.615s] -- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/map/ahg.pgm
+[2.615s] -- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/config
+[2.615s] -- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/config/lidar_slam.yaml
+[2.616s] -- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/config/lidar_with_map.yaml
+[2.616s] -- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/config/lidar.yaml
+[2.616s] -- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/config/octomap_params.yaml
+[2.616s] -- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/config/spot.yaml
+[2.616s] -- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/rviz
+[2.617s] -- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/rviz/tb3_navigation2.rviz
+[2.617s] -- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/ament_index/resource_index/package_run_dependencies/spot_navigation
+[2.617s] -- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/ament_index/resource_index/parent_prefix_path/spot_navigation
+[2.618s] -- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/environment/ament_prefix_path.sh
+[2.618s] -- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/environment/ament_prefix_path.dsv
+[2.619s] -- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/environment/path.sh
+[2.619s] -- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/environment/path.dsv
+[2.620s] -- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/local_setup.bash
+[2.621s] -- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/local_setup.sh
+[2.621s] -- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/local_setup.zsh
+[2.621s] -- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/local_setup.dsv
+[2.622s] -- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/package.dsv
+[2.622s] -- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/ament_index/resource_index/packages/spot_navigation
+[2.623s] -- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/cmake/spot_navigationConfig.cmake
+[2.623s] -- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/cmake/spot_navigationConfig-version.cmake
+[2.624s] -- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/package.xml
+[2.801s] Invoked command in '/home/caleb/ros2_ws/build/spot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --install /home/caleb/ros2_ws/build/spot_navigation

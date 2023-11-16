@@ -1,0 +1,29 @@
+[01m[K/home/caleb/ros2_ws/src/optimization/src/optimization.cpp:[m[K In member function ‘[01m[Kgeometry_msgs::msg::Quaternion Optimization::vectorToQuaternion(double, double, double)[m[K’:
+[01m[K/home/caleb/ros2_ws/src/optimization/src/optimization.cpp:100:9:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ has not been declared
+  100 |         [01;31m[KEigen[m[K::Vector3d axis_vector(xn, yn, zn);
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/caleb/ros2_ws/src/optimization/src/optimization.cpp:101:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kaxis_vector[m[K’ was not declared in this scope
+  101 |         [01;31m[Kaxis_vector[m[K.normalize();  // Normalize the vector
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/caleb/ros2_ws/src/optimization/src/optimization.cpp:104:9:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ has not been declared
+  104 |         [01;31m[KEigen[m[K::Vector3d z_axis(0, 0, 1);
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/caleb/ros2_ws/src/optimization/src/optimization.cpp:105:9:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ has not been declared
+  105 |         [01;31m[KEigen[m[K::Quaterniond quat = Eigen::Quaterniond::FromTwoVectors(z_axis, axis_vector);
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/caleb/ros2_ws/src/optimization/src/optimization.cpp:108:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kquat[m[K’ was not declared in this scope; did you mean ‘[01m[Kquad_t[m[K’?
+  108 |         geometry_quat.x = [01;31m[Kquat[m[K.x();
+      |                           [01;31m[K^~~~[m[K
+      |                           [32m[Kquad_t[m[K
+[01m[K/home/caleb/ros2_ws/src/optimization/src/optimization.cpp:99:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kxn[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   99 |     geometry_msgs::msg::Quaternion vectorToQuaternion([01;35m[Kdouble xn[m[K, double yn, double zn) {
+      |                                                       [01;35m[K~~~~~~~^~[m[K
+[01m[K/home/caleb/ros2_ws/src/optimization/src/optimization.cpp:99:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kyn[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   99 |     geometry_msgs::msg::Quaternion vectorToQuaternion(double xn, [01;35m[Kdouble yn[m[K, double zn) {
+      |                                                                  [01;35m[K~~~~~~~^~[m[K
+[01m[K/home/caleb/ros2_ws/src/optimization/src/optimization.cpp:99:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kzn[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   99 |     geometry_msgs::msg::Quaternion vectorToQuaternion(double xn, double yn, [01;35m[Kdouble zn[m[K) {
+      |                                                                             [01;35m[K~~~~~~~^~[m[K
+make[2]: *** [CMakeFiles/optimization.dir/build.make:76: CMakeFiles/optimization.dir/src/optimization.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/optimization.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

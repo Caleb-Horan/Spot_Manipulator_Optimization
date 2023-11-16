@@ -1,0 +1,35 @@
+[1.932s] Invoking command in '/home/caleb/ros2_ws/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake /home/caleb/ros2_ws/src/moveit2/moveit_common -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/caleb/ros2_ws/install/moveit_common
+[2.611s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[2.612s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.612s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.612s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[2.612s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.614s] -- Added test 'lint_cmake' to check CMake code style
+[2.614s] -- Added test 'xmllint' to check XML markup files
+[2.615s] -- Configuring done
+[2.615s] -- Generating done
+[2.615s] -- Build files have been written to: /home/caleb/ros2_ws/build/moveit_common
+[2.642s] Invoked command in '/home/caleb/ros2_ws/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake /home/caleb/ros2_ws/src/moveit2/moveit_common -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/caleb/ros2_ws/install/moveit_common
+[2.644s] Invoking command in '/home/caleb/ros2_ws/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --build /home/caleb/ros2_ws/build/moveit_common -- -j20 -l20
+[2.654s] Invoked command in '/home/caleb/ros2_ws/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --build /home/caleb/ros2_ws/build/moveit_common -- -j20 -l20
+[2.662s] Invoking command in '/home/caleb/ros2_ws/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --install /home/caleb/ros2_ws/build/moveit_common
+[2.695s] -- Install configuration: "Release"
+[2.696s] -- Installing: /home/caleb/ros2_ws/install/moveit_common/share/ament_index/resource_index/package_run_dependencies/moveit_common
+[2.697s] -- Installing: /home/caleb/ros2_ws/install/moveit_common/share/ament_index/resource_index/parent_prefix_path/moveit_common
+[2.697s] -- Installing: /home/caleb/ros2_ws/install/moveit_common/share/moveit_common/environment/ament_prefix_path.sh
+[2.697s] -- Installing: /home/caleb/ros2_ws/install/moveit_common/share/moveit_common/environment/ament_prefix_path.dsv
+[2.698s] -- Installing: /home/caleb/ros2_ws/install/moveit_common/share/moveit_common/environment/path.sh
+[2.698s] -- Installing: /home/caleb/ros2_ws/install/moveit_common/share/moveit_common/environment/path.dsv
+[2.698s] -- Installing: /home/caleb/ros2_ws/install/moveit_common/share/moveit_common/local_setup.bash
+[2.698s] -- Installing: /home/caleb/ros2_ws/install/moveit_common/share/moveit_common/local_setup.sh
+[2.698s] -- Installing: /home/caleb/ros2_ws/install/moveit_common/share/moveit_common/local_setup.zsh
+[2.698s] -- Installing: /home/caleb/ros2_ws/install/moveit_common/share/moveit_common/local_setup.dsv
+[2.698s] -- Installing: /home/caleb/ros2_ws/install/moveit_common/share/moveit_common/package.dsv
+[2.698s] -- Installing: /home/caleb/ros2_ws/install/moveit_common/share/ament_index/resource_index/packages/moveit_common
+[2.699s] -- Installing: /home/caleb/ros2_ws/install/moveit_common/share/moveit_common/cmake/moveit_common-extras.cmake
+[2.699s] -- Installing: /home/caleb/ros2_ws/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig.cmake
+[2.699s] -- Installing: /home/caleb/ros2_ws/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig-version.cmake
+[2.699s] -- Installing: /home/caleb/ros2_ws/install/moveit_common/share/moveit_common/package.xml
+[2.700s] -- Up-to-date: /home/caleb/ros2_ws/install/moveit_common/share/moveit_common/cmake
+[2.700s] -- Installing: /home/caleb/ros2_ws/install/moveit_common/share/moveit_common/cmake/moveit_package.cmake
+[2.866s] Invoked command in '/home/caleb/ros2_ws/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --install /home/caleb/ros2_ws/build/moveit_common

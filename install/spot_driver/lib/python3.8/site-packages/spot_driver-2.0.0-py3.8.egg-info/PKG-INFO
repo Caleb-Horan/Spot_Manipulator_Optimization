@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: spot-driver
+Version: 2.0.0
+Summary: The spot_driver package
+Home-page: UNKNOWN
+Author: Dave Niewinski
+Author-email: dniewinski@clearpathrobotics.com
+Maintainer: Austin Deric
+Maintainer-email: Austin.Deric@gmail.com
+License: BSD
+Description: UNKNOWN
+Keywords: ROS2
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: Proprietary
+Classifier: Programming Language :: Python

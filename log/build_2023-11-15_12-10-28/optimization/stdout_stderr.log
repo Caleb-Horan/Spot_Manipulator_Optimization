@@ -1,0 +1,44 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/optimization.dir/src/optimization.cpp.o[0m
+[01m[K/home/caleb/ros2_ws/src/optimization/src/optimization.cpp:124:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  124 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/caleb/ros2_ws/src/optimization/src/optimization.cpp:9:42:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+    9 | class Optimization : public rclcpp::Node [01;36m[K{[m[K
+      |                                          [01;36m[K^[m[K
+[01m[K/home/caleb/ros2_ws/src/optimization/src/optimization.cpp:[m[K In constructor ‘[01m[KOptimization::Optimization()[m[K’:
+[01m[K/home/caleb/ros2_ws/src/optimization/src/optimization.cpp:18:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group[m[K’ was not declared in this scope
+   18 |         [01;31m[Kmove_group[m[K = std::make_shared<moveit::planning_interface::MoveGroupInterface>(shared_node, "Arm");
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/caleb/ros2_ws/src/optimization/src/optimization.cpp:20:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvis_pub_[m[K’ was not declared in this scope
+   20 |         [01;31m[Kvis_pub_[m[K = this->create_publisher<visualization_msgs::msg::MarkerArray>("visualization_marker_array", 10);
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/caleb/ros2_ws/src/optimization/src/optimization.cpp:[m[K In member function ‘[01m[Kvoid Optimization::publishPoseAsMarker(const Pose&)[m[K’:
+[01m[K/home/caleb/ros2_ws/src/optimization/src/optimization.cpp:44:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvis_pub_[m[K’ was not declared in this scope
+   44 |         [01;31m[Kvis_pub_[m[K->publish(marker_array);
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/caleb/ros2_ws/src/optimization/src/optimization.cpp:[m[K In member function ‘[01m[Kvoid Optimization::executeMovements(const string&)[m[K’:
+[01m[K/home/caleb/ros2_ws/src/optimization/src/optimization.cpp:58:40:[m[K [01;31m[Kerror: [m[K‘[01m[KparseCSVLine[m[K’ was not declared in this scope
+   58 |             std::vector<double> pose = [01;31m[KparseCSVLine[m[K(line);
+      |                                        [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/caleb/ros2_ws/src/optimization/src/optimization.cpp:66:43:[m[K [01;31m[Kerror: [m[K‘[01m[KvectorToQuaternion[m[K’ was not declared in this scope
+   66 |                 target_pose.orientation = [01;31m[KvectorToQuaternion[m[K(pose[3], pose[4], pose[5]);
+      |                                           [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/caleb/ros2_ws/src/optimization/src/optimization.cpp:68:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group[m[K’ was not declared in this scope
+   68 |                 [01;31m[Kmove_group[m[K->setPoseTarget(target_pose);
+      |                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/caleb/ros2_ws/src/optimization/src/optimization.cpp:77:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kprivate[m[K’
+   77 | [01;31m[Kprivate[m[K:
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/caleb/ros2_ws/src/optimization/src/optimization.cpp:81:63:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+   81 |     std::vector<double> parseCSVLine(const std::string& line) [01;31m[K{[m[K
+      |                                                               [01;31m[K^[m[K
+[01m[K/home/caleb/ros2_ws/src/optimization/src/optimization.cpp:95:88:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+   95 |     geometry_msgs::msg::Quaternion vectorToQuaternion(double xn, double yn, double zn) [01;31m[K{[m[K
+      |                                                                                        [01;31m[K^[m[K
+[01m[K/home/caleb/ros2_ws/src/optimization/src/optimization.cpp:[m[K At global scope:
+[01m[K/home/caleb/ros2_ws/src/optimization/src/optimization.cpp:124:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+  124 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/optimization.dir/build.make:76: CMakeFiles/optimization.dir/src/optimization.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/optimization.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

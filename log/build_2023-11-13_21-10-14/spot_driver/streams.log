@@ -1,0 +1,21 @@
+[1.933s] Invoking command in '/home/caleb/ros2_ws/src/spot_ros/spot_driver': CMAKE_PREFIX_PATH=/home/caleb/ros2_ws/install/spot_msgs:/home/caleb/ros2_ws/install/spot_ros:/home/caleb/ros2_ws/install/spot_viz:/home/caleb/ros2_ws/install/spot_bringup:/home/caleb/ros2_ws/install/spot_navigation:/home/caleb/ros2_ws/install/spot_gazebo:/home/caleb/ros2_ws/install/spot_description:/home/caleb/ros2_ws/install/spot_control:/home/caleb/ros2_ws/install/spot_arm_moveit2_config:/home/caleb/ros2_ws/install/optimization PYTHONPATH=/home/caleb/ros2_ws/build/spot_driver/prefix_override:/home/caleb/ros2_ws/install/spot_driver/lib/python3.8/site-packages:/home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages:/home/caleb/ros2_ws/install/spot_driver/lib/python3.8/site-packages:/home/caleb/ros2_ws/install/spot_manipulation_driver/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/spot_driver build --build-base /home/caleb/ros2_ws/build/spot_driver/build install --record /home/caleb/ros2_ws/build/spot_driver/install.log --install-scripts $base/lib/spot_driver --single-version-externally-managed
+[1.934s] running egg_info
+[1.934s] writing ../../../build/spot_driver/spot_driver.egg-info/PKG-INFO
+[1.934s] writing dependency_links to ../../../build/spot_driver/spot_driver.egg-info/dependency_links.txt
+[1.935s] writing entry points to ../../../build/spot_driver/spot_driver.egg-info/entry_points.txt
+[1.935s] writing requirements to ../../../build/spot_driver/spot_driver.egg-info/requires.txt
+[1.935s] writing top-level names to ../../../build/spot_driver/spot_driver.egg-info/top_level.txt
+[1.935s] reading manifest file '../../../build/spot_driver/spot_driver.egg-info/SOURCES.txt'
+[1.936s] writing manifest file '../../../build/spot_driver/spot_driver.egg-info/SOURCES.txt'
+[1.936s] running build
+[1.937s] running build_py
+[1.937s] running install
+[1.937s] running install_lib
+[1.938s] running install_data
+[1.938s] running install_egg_info
+[1.938s] removing '/home/caleb/ros2_ws/install/spot_driver/lib/python3.8/site-packages/spot_driver-2.0.0-py3.8.egg-info' (and everything under it)
+[1.939s] Copying ../../../build/spot_driver/spot_driver.egg-info to /home/caleb/ros2_ws/install/spot_driver/lib/python3.8/site-packages/spot_driver-2.0.0-py3.8.egg-info
+[1.939s] running install_scripts
+[1.939s] Installing driver script to /home/caleb/ros2_ws/install/spot_driver/lib/spot_driver
+[1.940s] writing list of installed files to '/home/caleb/ros2_ws/build/spot_driver/install.log'
+[1.941s] Invoked command in '/home/caleb/ros2_ws/src/spot_ros/spot_driver' returned '0': CMAKE_PREFIX_PATH=/home/caleb/ros2_ws/install/spot_msgs:/home/caleb/ros2_ws/install/spot_ros:/home/caleb/ros2_ws/install/spot_viz:/home/caleb/ros2_ws/install/spot_bringup:/home/caleb/ros2_ws/install/spot_navigation:/home/caleb/ros2_ws/install/spot_gazebo:/home/caleb/ros2_ws/install/spot_description:/home/caleb/ros2_ws/install/spot_control:/home/caleb/ros2_ws/install/spot_arm_moveit2_config:/home/caleb/ros2_ws/install/optimization PYTHONPATH=/home/caleb/ros2_ws/build/spot_driver/prefix_override:/home/caleb/ros2_ws/install/spot_driver/lib/python3.8/site-packages:/home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages:/home/caleb/ros2_ws/install/spot_driver/lib/python3.8/site-packages:/home/caleb/ros2_ws/install/spot_manipulation_driver/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/spot_driver build --build-base /home/caleb/ros2_ws/build/spot_driver/build install --record /home/caleb/ros2_ws/build/spot_driver/install.log --install-scripts $base/lib/spot_driver --single-version-externally-managed

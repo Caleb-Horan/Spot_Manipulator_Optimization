@@ -1,0 +1,3 @@
+[console_scripts]
+driver = spot_driver.spot_driver:main
+

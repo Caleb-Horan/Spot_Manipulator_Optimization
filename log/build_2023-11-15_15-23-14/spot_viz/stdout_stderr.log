@@ -1,0 +1,22 @@
+-- Install configuration: "Release"
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_viz/share/spot_viz/launch
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_viz/share/spot_viz/launch/view_model.launch.py
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_viz/share/spot_viz/launch/view_robot.launch.py
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_viz/share/spot_viz/rviz
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_viz/share/spot_viz/rviz/robot.rviz
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_viz/share/spot_viz/rviz/model.rviz
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_viz/share/ament_index/resource_index/package_run_dependencies/spot_viz
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_viz/share/ament_index/resource_index/parent_prefix_path/spot_viz
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_viz/share/spot_viz/environment/ament_prefix_path.sh
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_viz/share/spot_viz/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_viz/share/spot_viz/environment/path.sh
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_viz/share/spot_viz/environment/path.dsv
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_viz/share/spot_viz/local_setup.bash
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_viz/share/spot_viz/local_setup.sh
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_viz/share/spot_viz/local_setup.zsh
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_viz/share/spot_viz/local_setup.dsv
+-- Installing: /home/caleb/ros2_ws/install/spot_viz/share/spot_viz/package.dsv
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_viz/share/ament_index/resource_index/packages/spot_viz
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_viz/share/spot_viz/cmake/spot_vizConfig.cmake
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_viz/share/spot_viz/cmake/spot_vizConfig-version.cmake
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_viz/share/spot_viz/package.xml

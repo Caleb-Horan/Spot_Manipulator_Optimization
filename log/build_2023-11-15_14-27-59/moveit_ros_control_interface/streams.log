@@ -1,0 +1,53 @@
+[0.333s] Invoking command in '/home/caleb/ros2_ws/build/moveit_ros_control_interface': AMENT_PREFIX_PATH=/home/caleb/ros2_ws/install/moveit_simple_controller_manager:/home/caleb/ros2_ws/install/moveit_core:/home/caleb/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/caleb/ros2_ws/install/moveit_simple_controller_manager:/home/caleb/ros2_ws/install/moveit_core:/home/caleb/ros2_ws/install/moveit_common:/home/caleb/ros2_ws/install/spot_ros:/home/caleb/ros2_ws/install/spot_viz:/home/caleb/ros2_ws/install/spot_bringup:/home/caleb/ros2_ws/install/spot_navigation:/home/caleb/ros2_ws/install/spot_msgs:/home/caleb/ros2_ws/install/spot_gazebo:/home/caleb/ros2_ws/install/spot_description:/home/caleb/ros2_ws/install/spot_control:/home/caleb/ros2_ws/install/spot_arm_moveit2_config:/home/caleb/ros2_ws/install/optimization:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic LD_LIBRARY_PATH=/home/caleb/ros2_ws/install/moveit_simple_controller_manager/lib:/home/caleb/ros2_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/caleb/ros2_ws/install/moveit_core/bin:${PATH} /usr/local/bin/cmake /home/caleb/ros2_ws/src/moveit2/moveit_plugins/moveit_ros_control_interface -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/caleb/ros2_ws/install/moveit_ros_control_interface
+[0.373s] -- The C compiler identification is GNU 9.4.0
+[0.420s] -- The CXX compiler identification is GNU 9.4.0
+[0.427s] -- Detecting C compiler ABI info
+[0.470s] -- Detecting C compiler ABI info - done
+[0.481s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.482s] -- Detecting C compile features
+[0.482s] -- Detecting C compile features - done
+[0.487s] -- Detecting CXX compiler ABI info
+[0.539s] -- Detecting CXX compiler ABI info - done
+[0.551s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.551s] -- Detecting CXX compile features
+[0.551s] -- Detecting CXX compile features - done
+[0.557s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.585s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.585s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.689s] -- Found rclcpp_action: 9.2.2 (/opt/ros/galactic/share/rclcpp_action/cmake)
+[0.753s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.768s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.865s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.896s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.973s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.095s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.098s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.115s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.115s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.162s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.162s] -- Looking for pthread_create in pthreads
+[1.200s] -- Looking for pthread_create in pthreads - not found
+[1.201s] -- Looking for pthread_create in pthread
+[1.247s] -- Looking for pthread_create in pthread - found
+[1.250s] -- Found Threads: TRUE  
+[1.494s] [31mCMake Error at CMakeLists.txt:16 (find_package):
+[1.494s]   By not providing "Findcontroller_manager_msgs.cmake" in CMAKE_MODULE_PATH
+[1.495s]   this project has asked CMake to find a package configuration file provided
+[1.495s]   by "controller_manager_msgs", but CMake did not find one.
+[1.495s] 
+[1.495s]   Could not find a package configuration file provided by
+[1.495s]   "controller_manager_msgs" with any of the following names:
+[1.495s] 
+[1.495s]     controller_manager_msgsConfig.cmake
+[1.495s]     controller_manager_msgs-config.cmake
+[1.496s] 
+[1.496s]   Add the installation prefix of "controller_manager_msgs" to
+[1.496s]   CMAKE_PREFIX_PATH or set "controller_manager_msgs_DIR" to a directory
+[1.496s]   containing one of the above files.  If "controller_manager_msgs" provides a
+[1.496s]   separate development package or SDK, be sure it has been installed.
+[1.496s] 
+[1.496s] [0m
+[1.496s] -- Configuring incomplete, errors occurred!
+[1.496s] See also "/home/caleb/ros2_ws/build/moveit_ros_control_interface/CMakeFiles/CMakeOutput.log".
+[1.497s] See also "/home/caleb/ros2_ws/build/moveit_ros_control_interface/CMakeFiles/CMakeError.log".
+[1.505s] Invoked command in '/home/caleb/ros2_ws/build/moveit_ros_control_interface' returned '1': AMENT_PREFIX_PATH=/home/caleb/ros2_ws/install/moveit_simple_controller_manager:/home/caleb/ros2_ws/install/moveit_core:/home/caleb/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/caleb/ros2_ws/install/moveit_simple_controller_manager:/home/caleb/ros2_ws/install/moveit_core:/home/caleb/ros2_ws/install/moveit_common:/home/caleb/ros2_ws/install/spot_ros:/home/caleb/ros2_ws/install/spot_viz:/home/caleb/ros2_ws/install/spot_bringup:/home/caleb/ros2_ws/install/spot_navigation:/home/caleb/ros2_ws/install/spot_msgs:/home/caleb/ros2_ws/install/spot_gazebo:/home/caleb/ros2_ws/install/spot_description:/home/caleb/ros2_ws/install/spot_control:/home/caleb/ros2_ws/install/spot_arm_moveit2_config:/home/caleb/ros2_ws/install/optimization:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic LD_LIBRARY_PATH=/home/caleb/ros2_ws/install/moveit_simple_controller_manager/lib:/home/caleb/ros2_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/caleb/ros2_ws/install/moveit_core/bin:${PATH} /usr/local/bin/cmake /home/caleb/ros2_ws/src/moveit2/moveit_plugins/moveit_ros_control_interface -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/caleb/ros2_ws/install/moveit_ros_control_interface

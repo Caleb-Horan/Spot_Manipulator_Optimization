@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from spot_msgs/srv/ArmForceTrajectory.srv
+// generated code does not contain a copyright notice
+
+
+module spot_msgs {
+  module srv {
+    typedef double double__3[3];
+    struct ArmForceTrajectory_Request {
+      @verbatim (language="comment", text=
+        " fx fy fz")
+      double__3 forces_pt0;
+
+      @verbatim (language="comment", text=
+        " tx ty yz")
+      double__3 torques_pt0;
+
+      @verbatim (language="comment", text=
+        " fx fy fz")
+      double__3 forces_pt1;
+
+      @verbatim (language="comment", text=
+        " tx ty yz")
+      double__3 torques_pt1;
+    };
+    struct ArmForceTrajectory_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

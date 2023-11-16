@@ -1,0 +1,3 @@
+[console_scripts]
+follow_joint_trajectory_action_server = scripts.follow_joint_trajectory_action_server:main
+

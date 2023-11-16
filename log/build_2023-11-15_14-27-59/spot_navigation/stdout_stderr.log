@@ -1,0 +1,40 @@
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/caleb/ros2_ws/build/spot_navigation
+-- Install configuration: "Release"
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/launch
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/launch/octomap.launch.py
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/launch/slam.launch.py
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/launch/navigation_suite.launch.py
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/launch/amcl.launch.py
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/launch/navigation.launch.py
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/map
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/map/map.pgm
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/map/map.yaml
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/map/ahg.yaml
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/map/ahg.pgm
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/config
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/config/lidar_slam.yaml
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/config/lidar_with_map.yaml
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/config/lidar.yaml
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/config/octomap_params.yaml
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/config/spot.yaml
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/rviz
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/rviz/tb3_navigation2.rviz
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/ament_index/resource_index/package_run_dependencies/spot_navigation
+-- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/ament_index/resource_index/parent_prefix_path/spot_navigation
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/environment/ament_prefix_path.sh
+-- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/environment/path.sh
+-- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/environment/path.dsv
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/local_setup.bash
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/local_setup.sh
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/local_setup.zsh
+-- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/local_setup.dsv
+-- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/package.dsv
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/ament_index/resource_index/packages/spot_navigation
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/cmake/spot_navigationConfig.cmake
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/cmake/spot_navigationConfig-version.cmake
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/package.xml

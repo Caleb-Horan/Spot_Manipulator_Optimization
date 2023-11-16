@@ -1,0 +1,21 @@
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/caleb/ros2_ws/build/spot_ros
+-- Install configuration: "Release"
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_ros/share/ament_index/resource_index/package_run_dependencies/spot_ros
+-- Installing: /home/caleb/ros2_ws/install/spot_ros/share/ament_index/resource_index/parent_prefix_path/spot_ros
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_ros/share/spot_ros/environment/ament_prefix_path.sh
+-- Installing: /home/caleb/ros2_ws/install/spot_ros/share/spot_ros/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_ros/share/spot_ros/environment/path.sh
+-- Installing: /home/caleb/ros2_ws/install/spot_ros/share/spot_ros/environment/path.dsv
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_ros/share/spot_ros/local_setup.bash
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_ros/share/spot_ros/local_setup.sh
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_ros/share/spot_ros/local_setup.zsh
+-- Installing: /home/caleb/ros2_ws/install/spot_ros/share/spot_ros/local_setup.dsv
+-- Installing: /home/caleb/ros2_ws/install/spot_ros/share/spot_ros/package.dsv
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_ros/share/ament_index/resource_index/packages/spot_ros
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_ros/share/spot_ros/cmake/spot_rosConfig.cmake
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_ros/share/spot_ros/cmake/spot_rosConfig-version.cmake
+-- Up-to-date: /home/caleb/ros2_ws/install/spot_ros/share/spot_ros/package.xml

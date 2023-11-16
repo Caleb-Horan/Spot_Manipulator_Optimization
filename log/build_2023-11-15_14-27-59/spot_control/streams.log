@@ -1,0 +1,36 @@
+[1.204s] Invoking command in '/home/caleb/ros2_ws/build/spot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake /home/caleb/ros2_ws/src/spot_ros/spot_control -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/caleb/ros2_ws/install/spot_control
+[1.497s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.498s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.498s] -- Configuring done
+[1.499s] -- Generating done
+[1.499s] -- Build files have been written to: /home/caleb/ros2_ws/build/spot_control
+[1.515s] Invoked command in '/home/caleb/ros2_ws/build/spot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake /home/caleb/ros2_ws/src/spot_ros/spot_control -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/caleb/ros2_ws/install/spot_control
+[1.515s] Invoking command in '/home/caleb/ros2_ws/build/spot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --build /home/caleb/ros2_ws/build/spot_control -- -j20 -l20
+[1.521s] Invoked command in '/home/caleb/ros2_ws/build/spot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --build /home/caleb/ros2_ws/build/spot_control -- -j20 -l20
+[1.580s] Invoking command in '/home/caleb/ros2_ws/build/spot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --install /home/caleb/ros2_ws/build/spot_control
+[1.582s] -- Install configuration: "Release"
+[1.582s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_control/share/spot_control/launch
+[1.582s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_control/share/spot_control/launch/teleop.launch.py
+[1.583s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_control/share/spot_control/launch/control.launch
+[1.583s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_control/share/spot_control/config
+[1.583s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_control/share/spot_control/config/control.yaml
+[1.584s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_control/share/spot_control/config/teleop_ps4.yaml
+[1.584s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_control/share/spot_control/config/robot_localization.yaml
+[1.585s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_control/share/spot_control/config/twist_mux.yaml
+[1.585s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_control/share/spot_control/config/teleop_ps3.yaml
+[1.585s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_control/share/ament_index/resource_index/package_run_dependencies/spot_control
+[1.586s] -- Installing: /home/caleb/ros2_ws/install/spot_control/share/ament_index/resource_index/parent_prefix_path/spot_control
+[1.586s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_control/share/spot_control/environment/ament_prefix_path.sh
+[1.587s] -- Installing: /home/caleb/ros2_ws/install/spot_control/share/spot_control/environment/ament_prefix_path.dsv
+[1.587s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_control/share/spot_control/environment/path.sh
+[1.587s] -- Installing: /home/caleb/ros2_ws/install/spot_control/share/spot_control/environment/path.dsv
+[1.587s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_control/share/spot_control/local_setup.bash
+[1.588s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_control/share/spot_control/local_setup.sh
+[1.588s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_control/share/spot_control/local_setup.zsh
+[1.588s] -- Installing: /home/caleb/ros2_ws/install/spot_control/share/spot_control/local_setup.dsv
+[1.588s] -- Installing: /home/caleb/ros2_ws/install/spot_control/share/spot_control/package.dsv
+[1.588s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_control/share/ament_index/resource_index/packages/spot_control
+[1.588s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_control/share/spot_control/cmake/spot_controlConfig.cmake
+[1.589s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_control/share/spot_control/cmake/spot_controlConfig-version.cmake
+[1.589s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_control/share/spot_control/package.xml
+[2.077s] Invoked command in '/home/caleb/ros2_ws/build/spot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --install /home/caleb/ros2_ws/build/spot_control

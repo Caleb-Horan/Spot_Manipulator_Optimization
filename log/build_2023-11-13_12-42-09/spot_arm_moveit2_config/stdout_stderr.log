@@ -1,0 +1,60 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/caleb/ros2_ws/build/spot_arm_moveit2_config
+-- Install configuration: ""
+-- Installing: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/ament_index/resource_index/package_run_dependencies/spot_arm_moveit2_config
+-- Installing: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/ament_index/resource_index/parent_prefix_path/spot_arm_moveit2_config
+-- Installing: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/environment/ament_prefix_path.sh
+-- Installing: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/environment/ament_prefix_path.dsv
+-- Installing: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/environment/path.sh
+-- Installing: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/environment/path.dsv
+-- Installing: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/local_setup.bash
+-- Installing: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/local_setup.sh
+-- Installing: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/local_setup.zsh
+-- Installing: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/local_setup.dsv
+-- Installing: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/package.dsv
+-- Installing: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/ament_index/resource_index/packages/spot_arm_moveit2_config
+-- Installing: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/cmake/spot_arm_moveit2_configConfig.cmake
+-- Installing: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/cmake/spot_arm_moveit2_configConfig-version.cmake
+-- Installing: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/package.xml
+-- Installing: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/config
+-- Installing: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/config/spot.srdf
+-- Installing: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/config/cartesian_limits.yaml
+-- Installing: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/config/gazebo_spot.urdf
+-- Installing: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/config/ompl_planning.yaml
+-- Installing: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/config/chomp_planning.yaml
+-- Installing: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/config/joint_limits.yaml
+-- Installing: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/config/stomp_planning.yaml
+-- Installing: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/config/gazebo_controllers.yaml
+-- Installing: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/config/controllers.yaml
+-- Installing: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/config/simple_moveit_controllers.yaml
+-- Installing: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/config/fake_controllers.yaml
+-- Installing: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/config/kinematics.yaml
+-- Installing: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/config/sensors_3d.yaml
+-- Installing: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/launch
+-- Installing: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/launch/.publishers.launch.py.swp
+-- Installing: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/launch/spot_arm_planning_execution.launch.py
+-- Installing: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/rviz
+-- Installing: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/rviz/view_robot_backup.rviz
+-- Installing: /home/caleb/ros2_ws/install/spot_arm_moveit2_config/share/spot_arm_moveit2_config/rviz/view_robot.rviz

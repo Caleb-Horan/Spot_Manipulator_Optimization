@@ -1,0 +1,42 @@
+[0.117s] Invoking command in '/home/caleb/ros2_ws/build/optimization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --build /home/caleb/ros2_ws/build/optimization -- -j20 -l20
+[0.126s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.140s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.184s] -- Found rclpy: 1.9.3 (/opt/ros/galactic/share/rclpy/cmake)
+[0.184s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.204s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.206s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.279s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.305s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.307s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.316s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.386s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[0.409s] -- Found moveit_core: 2.3.4 (/opt/ros/galactic/share/moveit_core/cmake)
+[0.418s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.427s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem 
+[0.453s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.497s] -- Found moveit_ros_planning_interface: 2.3.4 (/opt/ros/galactic/share/moveit_ros_planning_interface/cmake)
+[1.500s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: date_time filesystem program_options system thread 
+[1.663s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread chrono 
+[1.824s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread 
+[2.251s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread system filesystem regex date_time program_options 
+[2.480s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread 
+[2.833s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[2.869s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.964s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.964s] -- Configured cppcheck include dirs: /home/caleb/ros2_ws/src/optimization/include
+[2.965s] -- Configured cppcheck exclude dirs and/or files: 
+[3.065s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.065s] -- Configured cpplint exclude dirs and/or files: 
+[3.078s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.102s] -- Added test 'lint_cmake' to check CMake code style
+[3.113s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.204s] -- Added test 'uncrustify' to check C / C++ code style
+[3.204s] -- Configured uncrustify additional arguments: 
+[3.215s] -- Added test 'xmllint' to check XML markup files
+[3.216s] -- Configuring done
+[3.240s] [0mCMake Error: Cannot determine link language for target "optimizationpy".[0m
+[3.240s] [0mCMake Error: CMake can not determine linker language for target: optimizationpy[0m
+[3.241s] -- Generating done
+[3.243s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[3.248s] make: *** [Makefile:267: cmake_check_build_system] Error 1
+[3.249s] Invoked command in '/home/caleb/ros2_ws/build/optimization' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --build /home/caleb/ros2_ws/build/optimization -- -j20 -l20

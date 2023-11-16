@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from spot_msgs/msg/ManipulatorState.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module spot_msgs {
+  module msg {
+    module ManipulatorState_Constants {
+      const uint8 STOWSTATE_UNKNOWN = 0;
+      const uint8 STOWSTATE_STOWED = 1;
+      const uint8 STOWSTATE_DEPLOYED = 2;
+      const uint8 CARRY_STATE_UNKNOWN = 0;
+      const uint8 CARRY_STATE_NOT_CARRIABLE = 1;
+      const uint8 CARRY_STATE_CARRIABLE = 3;
+      const uint8 CARRY_STATE_CARRIABLE_AND_STOWABLE = 3;
+    };
+    @verbatim (language="comment", text=
+      " Stow State")
+    struct ManipulatorState {
+      double gripper_open_percentage;
+
+      boolean is_gripper_holding_item;
+
+      geometry_msgs::msg::Point estimated_end_effector_force_in_hand;
+
+      uint8 stow_state;
+
+      @verbatim (language="comment", text=
+        "geometry_msgs/Twist velocity_of_hand_in_vision" "\n"
+        "geometry_msgs/Twist velocity_of_hand_in_odom")
+      uint8 carry_state;
+    };
+  };
+};

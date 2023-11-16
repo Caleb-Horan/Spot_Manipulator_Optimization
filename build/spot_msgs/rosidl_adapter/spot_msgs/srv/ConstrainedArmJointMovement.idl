@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from spot_msgs/srv/ConstrainedArmJointMovement.srv
+// generated code does not contain a copyright notice
+
+
+module spot_msgs {
+  module srv {
+    struct ConstrainedArmJointMovement_Request {
+      sequence<double> joint_target;
+
+      double max_execution_time;
+
+      double max_velocity;
+
+      double max_acceleration;
+    };
+    struct ConstrainedArmJointMovement_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

@@ -1,0 +1,1110 @@
+[0.732s] Invoking command in '/home/caleb/ros2_ws/build/spot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake /home/caleb/ros2_ws/src/spot_ros/spot_msgs -DCMAKE_INSTALL_PREFIX=/home/caleb/ros2_ws/install/spot_msgs
+[1.032s] -- The C compiler identification is GNU 9.4.0
+[1.032s] -- The CXX compiler identification is GNU 9.4.0
+[1.033s] -- Detecting C compiler ABI info
+[1.033s] -- Detecting C compiler ABI info - done
+[1.034s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.034s] -- Detecting C compile features
+[1.035s] -- Detecting C compile features - done
+[1.035s] -- Detecting CXX compiler ABI info
+[1.036s] -- Detecting CXX compiler ABI info - done
+[1.036s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.037s] -- Detecting CXX compile features
+[1.038s] -- Detecting CXX compile features - done
+[1.038s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.038s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.038s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.083s] -- Found builtin_interfaces: 1.0.3 (/opt/ros/galactic/share/builtin_interfaces/cmake)
+[1.117s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.125s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.186s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.219s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.276s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.292s] -- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+[1.371s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[1.379s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[1.431s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.756s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[2.102s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.276s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.300s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.301s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[2.323s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[2.323s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.323s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.323s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[2.339s] -- Found PythonExtra: .so  
+[2.449s] -- Configuring done
+[2.575s] -- Generating done
+[2.576s] -- Build files have been written to: /home/caleb/ros2_ws/build/spot_msgs
+[2.746s] Invoked command in '/home/caleb/ros2_ws/build/spot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake /home/caleb/ros2_ws/src/spot_ros/spot_msgs -DCMAKE_INSTALL_PREFIX=/home/caleb/ros2_ws/install/spot_msgs
+[2.760s] Invoking command in '/home/caleb/ros2_ws/build/spot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --build /home/caleb/ros2_ws/build/spot_msgs -- -j20 -l20
+[2.770s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.771s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.985s] [  0%] Built target spot_msgs__cpp
+[3.988s] [  0%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.988s] [  1%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.988s] [  2%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.119s] [  3%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/spot_msgs/action/detail/navigate_to__functions.c.o[0m
+[4.119s] [  3%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/spot_msgs/action/detail/trajectory__functions.c.o[0m
+[4.119s] [  3%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/spot_msgs/srv/detail/clear_behavior_fault__functions.c.o[0m
+[4.119s] [  4%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/spot_msgs/srv/detail/list_graph__functions.c.o[0m
+[4.120s] [  4%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/spot_msgs/srv/detail/dock__functions.c.o[0m
+[4.120s] [  5%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/spot_msgs/srv/detail/set_velocity__functions.c.o[0m
+[4.120s] [  5%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/spot_msgs/srv/detail/set_locomotion__functions.c.o[0m
+[4.120s] [  5%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/spot_msgs/srv/detail/arm_force_trajectory__functions.c.o[0m
+[4.121s] [  6%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/spot_msgs/srv/detail/arm_joint_movement__functions.c.o[0m
+[4.122s] [  6%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/spot_msgs/srv/detail/constrained_arm_joint_movement__functions.c.o[0m
+[4.122s] [  6%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/spot_msgs/srv/detail/gripper_angle_move__functions.c.o[0m
+[4.122s] [  7%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/spot_msgs/srv/detail/hand_pose__functions.c.o[0m
+[4.122s] [  7%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/spot_msgs/msg/detail/battery_state_array__functions.c.o[0m
+[4.122s] [  7%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/spot_msgs/msg/detail/behavior_fault__functions.c.o[0m
+[4.123s] [  8%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/spot_msgs/msg/detail/e_stop_state_array__functions.c.o[0m
+[4.123s] [  8%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/spot_msgs/msg/detail/dock_state__functions.c.o[0m
+[4.127s] [  8%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/spot_msgs/msg/detail/foot_state_array__functions.c.o[0m
+[4.159s] [  9%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/spot_msgs/msg/detail/lease_array__functions.c.o[0m
+[4.160s] [ 10%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/spot_msgs/msg/detail/mobility_params__functions.c.o[0m
+[4.160s] [ 10%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/spot_msgs/msg/detail/metrics__functions.c.o[0m
+[4.161s] [ 10%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/spot_msgs/msg/detail/lease_owner__functions.c.o[0m
+[4.164s] [ 10%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/spot_msgs/msg/detail/system_fault__functions.c.o[0m
+[4.165s] [ 10%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/spot_msgs/msg/detail/wi_fi_state__functions.c.o[0m
+[4.167s] [ 11%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/spot_msgs/msg/detail/battery_state__functions.c.o[0m
+[4.167s] [ 11%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/spot_msgs/msg/detail/behavior_fault_state__functions.c.o[0m
+[4.167s] [ 11%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/spot_msgs/msg/detail/manipulator_state__functions.c.o[0m
+[4.168s] [ 11%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/spot_msgs/msg/detail/feedback__functions.c.o[0m
+[4.168s] [ 11%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/spot_msgs/msg/detail/foot_state__functions.c.o[0m
+[4.169s] [ 12%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/spot_msgs/msg/detail/e_stop_state__functions.c.o[0m
+[4.180s] [ 13%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/spot_msgs/msg/detail/lease__functions.c.o[0m
+[4.185s] [ 13%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/spot_msgs/msg/detail/lease_resource__functions.c.o[0m
+[4.200s] [ 14%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/spot_msgs/msg/detail/system_fault_state__functions.c.o[0m
+[4.200s] [ 14%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_generator_c.dir/rosidl_generator_c/spot_msgs/msg/detail/power_state__functions.c.o[0m
+[4.233s] [ 14%] [32m[1mLinking C shared library libspot_msgs__rosidl_generator_c.so[0m
+[4.260s] [ 14%] Built target spot_msgs__rosidl_generator_c
+[4.263s] [ 15%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.263s] [ 16%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.771s] [ 17%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_msgs/action/navigate_to__type_support.cpp.o[0m
+[4.771s] [ 17%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_msgs/action/trajectory__type_support.cpp.o[0m
+[4.772s] [ 18%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_msgs/srv/clear_behavior_fault__type_support.cpp.o[0m
+[4.772s] [ 18%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_msgs/srv/dock__type_support.cpp.o[0m
+[4.772s] [ 18%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_msgs/srv/list_graph__type_support.cpp.o[0m
+[4.772s] [ 19%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_msgs/srv/set_velocity__type_support.cpp.o[0m
+[4.772s] [ 19%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_msgs/srv/set_locomotion__type_support.cpp.o[0m
+[4.772s] [ 19%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_msgs/srv/arm_force_trajectory__type_support.cpp.o[0m
+[4.773s] [ 19%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_msgs/srv/constrained_arm_joint_movement__type_support.cpp.o[0m
+[4.773s] [ 20%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_msgs/srv/arm_joint_movement__type_support.cpp.o[0m
+[4.773s] [ 20%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_msgs/srv/gripper_angle_move__type_support.cpp.o[0m
+[4.774s] [ 21%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_msgs/srv/hand_pose__type_support.cpp.o[0m
+[4.774s] [ 21%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_msgs/msg/battery_state_array__type_support.cpp.o[0m
+[4.774s] [ 21%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_msgs/msg/behavior_fault__type_support.cpp.o[0m
+[4.779s] [ 22%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_msgs/msg/dock_state__type_support.cpp.o[0m
+[4.780s] [ 22%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_msgs/msg/e_stop_state_array__type_support.cpp.o[0m
+[5.042s] [ 23%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_msgs/msg/foot_state_array__type_support.cpp.o[0m
+[5.042s] [ 23%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_msgs/msg/lease_owner__type_support.cpp.o[0m
+[5.042s] [ 24%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_msgs/msg/metrics__type_support.cpp.o[0m
+[5.042s] [ 24%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_msgs/msg/mobility_params__type_support.cpp.o[0m
+[5.042s] [ 24%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_msgs/msg/lease_array__type_support.cpp.o[0m
+[5.046s] [ 24%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_msgs/msg/system_fault__type_support.cpp.o[0m
+[5.104s] [ 24%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_msgs/msg/wi_fi_state__type_support.cpp.o[0m
+[5.114s] [ 25%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_msgs/msg/battery_state__type_support.cpp.o[0m
+[5.132s] [ 25%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_msgs/msg/behavior_fault_state__type_support.cpp.o[0m
+[5.132s] [ 26%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_msgs/msg/manipulator_state__type_support.cpp.o[0m
+[5.133s] [ 26%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_msgs/msg/e_stop_state__type_support.cpp.o[0m
+[5.137s] [ 26%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_msgs/msg/feedback__type_support.cpp.o[0m
+[5.164s] [ 27%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_msgs/msg/foot_state__type_support.cpp.o[0m
+[5.193s] [ 27%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_msgs/action/detail/navigate_to__type_support.cpp.o[0m
+[5.223s] [ 27%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_msgs/msg/lease__type_support.cpp.o[0m
+[5.234s] [ 27%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_msgs/msg/lease_resource__type_support.cpp.o[0m
+[5.248s] [ 28%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_msgs/msg/power_state__type_support.cpp.o[0m
+[5.253s] [ 28%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_msgs/action/navigate_to__type_support.cpp.o[0m
+[5.281s] [ 28%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_msgs/action/trajectory__type_support.cpp.o[0m
+[5.282s] [ 28%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_msgs/msg/system_fault_state__type_support.cpp.o[0m
+[5.286s] [ 29%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_msgs/srv/clear_behavior_fault__type_support.cpp.o[0m
+[5.292s] [ 29%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_msgs/srv/list_graph__type_support.cpp.o[0m
+[5.300s] [ 29%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_msgs/srv/dock__type_support.cpp.o[0m
+[5.319s] [ 30%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_msgs/srv/set_locomotion__type_support.cpp.o[0m
+[5.320s] [ 30%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_msgs/action/detail/trajectory__type_support.cpp.o[0m
+[5.325s] [ 31%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_msgs/srv/arm_joint_movement__type_support.cpp.o[0m
+[5.330s] [ 31%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_msgs/srv/set_velocity__type_support.cpp.o[0m
+[5.338s] [ 31%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_msgs/srv/arm_force_trajectory__type_support.cpp.o[0m
+[5.351s] [ 31%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_msgs/srv/constrained_arm_joint_movement__type_support.cpp.o[0m
+[5.366s] [ 32%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_msgs/srv/hand_pose__type_support.cpp.o[0m
+[5.369s] [ 33%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_msgs/srv/detail/clear_behavior_fault__type_support.cpp.o[0m
+[5.372s] [ 33%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_msgs/srv/gripper_angle_move__type_support.cpp.o[0m
+[5.378s] [ 33%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_msgs/msg/battery_state_array__type_support.cpp.o[0m
+[5.388s] [ 33%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_msgs/srv/detail/list_graph__type_support.cpp.o[0m
+[5.390s] [ 33%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_msgs/msg/behavior_fault__type_support.cpp.o[0m
+[5.414s] [ 34%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_msgs/msg/dock_state__type_support.cpp.o[0m
+[5.430s] [ 34%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_msgs/srv/detail/dock__type_support.cpp.o[0m
+[5.434s] [ 34%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_msgs/msg/e_stop_state_array__type_support.cpp.o[0m
+[5.448s] [ 34%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_msgs/msg/lease_owner__type_support.cpp.o[0m
+[5.452s] [ 35%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_msgs/msg/mobility_params__type_support.cpp.o[0m
+[5.455s] [ 36%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_msgs/msg/lease_array__type_support.cpp.o[0m
+[5.455s] [ 36%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_msgs/msg/foot_state_array__type_support.cpp.o[0m
+[5.467s] [ 36%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_msgs/msg/metrics__type_support.cpp.o[0m
+[5.473s] [ 36%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_msgs/msg/system_fault__type_support.cpp.o[0m
+[5.484s] [ 37%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_msgs/msg/battery_state__type_support.cpp.o[0m
+[5.484s] [ 37%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_msgs/msg/wi_fi_state__type_support.cpp.o[0m
+[5.493s] [ 38%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_msgs/srv/detail/set_locomotion__type_support.cpp.o[0m
+[5.494s] [ 39%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_msgs/msg/manipulator_state__type_support.cpp.o[0m
+[5.498s] [ 39%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_msgs/msg/e_stop_state__type_support.cpp.o[0m
+[5.498s] [ 39%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_msgs/msg/behavior_fault_state__type_support.cpp.o[0m
+[5.513s] [ 39%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_msgs/msg/feedback__type_support.cpp.o[0m
+[5.513s] [ 39%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_msgs/srv/detail/set_velocity__type_support.cpp.o[0m
+[5.514s] [ 39%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_msgs/srv/detail/arm_force_trajectory__type_support.cpp.o[0m
+[5.516s] [ 40%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_msgs/srv/detail/arm_joint_movement__type_support.cpp.o[0m
+[5.518s] [ 41%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_msgs/msg/foot_state__type_support.cpp.o[0m
+[5.530s] [ 41%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_msgs/msg/lease__type_support.cpp.o[0m
+[5.533s] [ 41%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_msgs/msg/lease_resource__type_support.cpp.o[0m
+[5.539s] [ 42%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_msgs/srv/detail/constrained_arm_joint_movement__type_support.cpp.o[0m
+[5.539s] [ 42%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_msgs/msg/power_state__type_support.cpp.o[0m
+[5.540s] [ 42%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_msgs/srv/detail/gripper_angle_move__type_support.cpp.o[0m
+[5.552s] [ 42%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_msgs/msg/system_fault_state__type_support.cpp.o[0m
+[5.556s] [ 43%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_msgs/srv/detail/hand_pose__type_support.cpp.o[0m
+[5.559s] [ 43%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_msgs/msg/detail/battery_state_array__type_support.cpp.o[0m
+[5.562s] [ 44%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_msgs/msg/detail/behavior_fault__type_support.cpp.o[0m
+[5.563s] [ 44%] [32m[1mLinking CXX shared library libspot_msgs__rosidl_typesupport_cpp.so[0m
+[5.563s] [ 44%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_msgs/msg/detail/dock_state__type_support.cpp.o[0m
+[5.573s] [ 44%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_msgs/msg/detail/e_stop_state_array__type_support.cpp.o[0m
+[5.577s] [ 44%] [32m[1mLinking CXX shared library libspot_msgs__rosidl_typesupport_c.so[0m
+[5.617s] [ 45%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_msgs/msg/detail/foot_state_array__type_support.cpp.o[0m
+[5.635s] [ 45%] Built target spot_msgs__rosidl_typesupport_c
+[5.637s] [ 45%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_msgs/msg/detail/lease_array__type_support.cpp.o[0m
+[5.677s] [ 45%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_msgs/msg/detail/lease_owner__type_support.cpp.o[0m
+[5.679s] [ 45%] Built target spot_msgs__rosidl_typesupport_cpp
+[5.686s] [ 46%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_msgs/msg/detail/mobility_params__type_support.cpp.o[0m
+[5.699s] [ 46%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_msgs/msg/detail/metrics__type_support.cpp.o[0m
+[5.742s] [ 46%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_msgs/msg/detail/system_fault__type_support.cpp.o[0m
+[5.760s] [ 47%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_msgs/msg/detail/wi_fi_state__type_support.cpp.o[0m
+[5.762s] [ 47%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_msgs/msg/detail/battery_state__type_support.cpp.o[0m
+[5.793s] [ 47%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_msgs/msg/detail/behavior_fault_state__type_support.cpp.o[0m
+[5.806s] [ 48%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_msgs/msg/detail/manipulator_state__type_support.cpp.o[0m
+[5.826s] [ 48%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_msgs/action/detail/navigate_to__type_support.c.o[0m
+[5.863s] [ 48%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_msgs/msg/detail/e_stop_state__type_support.cpp.o[0m
+[5.908s] [ 48%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_msgs/action/detail/trajectory__type_support.c.o[0m
+[5.913s] [ 48%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_msgs/msg/detail/feedback__type_support.cpp.o[0m
+[5.915s] [ 49%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_msgs/msg/detail/lease__type_support.cpp.o[0m
+[5.915s] [ 49%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_msgs/srv/detail/clear_behavior_fault__type_support.c.o[0m
+[5.916s] [ 50%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_msgs/msg/detail/foot_state__type_support.cpp.o[0m
+[5.935s] [ 50%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_msgs/msg/detail/lease_resource__type_support.cpp.o[0m
+[5.942s] [ 51%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_msgs/msg/detail/power_state__type_support.cpp.o[0m
+[5.949s] [ 52%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_msgs/srv/detail/dock__type_support.c.o[0m
+[5.950s] [ 52%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_msgs/srv/detail/list_graph__type_support.c.o[0m
+[5.955s] [ 52%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_msgs/srv/detail/set_locomotion__type_support.c.o[0m
+[5.958s] [ 52%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_msgs/msg/detail/system_fault_state__type_support.cpp.o[0m
+[6.001s] [ 52%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_msgs/srv/detail/set_velocity__type_support.c.o[0m
+[6.002s] [ 53%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_msgs/srv/detail/arm_force_trajectory__type_support.c.o[0m
+[6.004s] [ 53%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_msgs/srv/detail/constrained_arm_joint_movement__type_support.c.o[0m
+[6.010s] [ 53%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_msgs/srv/detail/arm_joint_movement__type_support.c.o[0m
+[6.018s] [ 54%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_msgs/srv/detail/gripper_angle_move__type_support.c.o[0m
+[6.031s] [ 54%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_msgs/srv/detail/hand_pose__type_support.c.o[0m
+[6.043s] [ 54%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_msgs/msg/detail/dock_state__type_support.c.o[0m
+[6.043s] [ 54%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_msgs/msg/detail/battery_state_array__type_support.c.o[0m
+[6.054s] [ 55%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_msgs/msg/detail/e_stop_state_array__type_support.c.o[0m
+[6.054s] [ 55%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_msgs/msg/detail/behavior_fault__type_support.c.o[0m
+[6.055s] [ 56%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_msgs/msg/detail/foot_state_array__type_support.c.o[0m
+[6.056s] [ 56%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_msgs/msg/detail/lease_array__type_support.c.o[0m
+[6.059s] [ 56%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_msgs/msg/detail/lease_owner__type_support.c.o[0m
+[6.063s] [ 57%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_msgs/msg/detail/mobility_params__type_support.c.o[0m
+[6.081s] [ 57%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_msgs/msg/detail/system_fault__type_support.c.o[0m
+[6.081s] [ 58%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_msgs/msg/detail/wi_fi_state__type_support.c.o[0m
+[6.083s] [ 58%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_msgs/msg/detail/battery_state__type_support.c.o[0m
+[6.083s] [ 58%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_msgs/msg/detail/behavior_fault_state__type_support.c.o[0m
+[6.085s] [ 59%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_msgs/msg/detail/manipulator_state__type_support.c.o[0m
+[6.086s] [ 59%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_msgs/msg/detail/e_stop_state__type_support.c.o[0m
+[6.089s] [ 60%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_msgs/msg/detail/foot_state__type_support.c.o[0m
+[6.089s] [ 60%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_msgs/msg/detail/feedback__type_support.c.o[0m
+[6.095s] [ 60%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_msgs/msg/detail/lease__type_support.c.o[0m
+[6.096s] [ 60%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_msgs/msg/detail/metrics__type_support.c.o[0m
+[6.105s] [ 61%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_msgs/msg/detail/lease_resource__type_support.c.o[0m
+[6.106s] [ 61%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_msgs/msg/detail/power_state__type_support.c.o[0m
+[6.110s] [ 61%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_msgs/msg/detail/system_fault_state__type_support.c.o[0m
+[6.137s] [ 62%] [32m[1mLinking C shared library libspot_msgs__rosidl_typesupport_introspection_c.so[0m
+[6.157s] [ 62%] Built target spot_msgs__rosidl_typesupport_introspection_c
+[6.183s] [ 62%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_msgs/action/detail/dds_fastrtps/navigate_to__type_support.cpp.o[0m
+[6.183s] [ 62%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_msgs/action/detail/dds_fastrtps/trajectory__type_support.cpp.o[0m
+[6.184s] [ 63%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_msgs/srv/detail/dds_fastrtps/clear_behavior_fault__type_support.cpp.o[0m
+[6.184s] [ 63%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_msgs/srv/detail/dds_fastrtps/list_graph__type_support.cpp.o[0m
+[6.184s] [ 63%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_msgs/srv/detail/dds_fastrtps/dock__type_support.cpp.o[0m
+[6.184s] [ 64%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_msgs/srv/detail/dds_fastrtps/set_velocity__type_support.cpp.o[0m
+[6.184s] [ 64%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_msgs/srv/detail/dds_fastrtps/set_locomotion__type_support.cpp.o[0m
+[6.185s] [ 65%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_msgs/srv/detail/dds_fastrtps/arm_force_trajectory__type_support.cpp.o[0m
+[6.185s] [ 65%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_msgs/srv/detail/dds_fastrtps/arm_joint_movement__type_support.cpp.o[0m
+[6.185s] [ 65%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_msgs/srv/detail/dds_fastrtps/constrained_arm_joint_movement__type_support.cpp.o[0m
+[6.185s] [ 65%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_msgs/srv/detail/dds_fastrtps/gripper_angle_move__type_support.cpp.o[0m
+[6.185s] [ 66%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_msgs/srv/detail/dds_fastrtps/hand_pose__type_support.cpp.o[0m
+[6.190s] [ 66%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_msgs/msg/detail/dds_fastrtps/battery_state_array__type_support.cpp.o[0m
+[6.193s] [ 66%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_msgs/msg/detail/dds_fastrtps/behavior_fault__type_support.cpp.o[0m
+[6.198s] [ 67%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_msgs/msg/detail/dds_fastrtps/dock_state__type_support.cpp.o[0m
+[6.198s] [ 67%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_msgs/msg/detail/dds_fastrtps/e_stop_state_array__type_support.cpp.o[0m
+[6.231s] [ 67%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_msgs/msg/detail/dds_fastrtps/foot_state_array__type_support.cpp.o[0m
+[6.285s] [ 68%] [32m[1mLinking CXX shared library libspot_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[6.292s] [ 69%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_msgs/msg/detail/dds_fastrtps/lease_array__type_support.cpp.o[0m
+[6.306s] [ 69%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_msgs/msg/detail/dds_fastrtps/lease_owner__type_support.cpp.o[0m
+[6.515s] [ 69%] Built target spot_msgs__rosidl_typesupport_introspection_cpp
+[6.517s] [ 70%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_msgs/msg/detail/dds_fastrtps/mobility_params__type_support.cpp.o[0m
+[6.577s] [ 70%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_msgs/msg/detail/dds_fastrtps/metrics__type_support.cpp.o[0m
+[6.584s] [ 70%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_msgs/msg/detail/dds_fastrtps/system_fault__type_support.cpp.o[0m
+[6.584s] [ 71%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_msgs/msg/detail/dds_fastrtps/wi_fi_state__type_support.cpp.o[0m
+[6.592s] [ 71%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_msgs/msg/detail/dds_fastrtps/battery_state__type_support.cpp.o[0m
+[6.613s] [ 71%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_msgs/msg/detail/dds_fastrtps/behavior_fault_state__type_support.cpp.o[0m
+[6.623s] [ 72%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_msgs/msg/detail/dds_fastrtps/manipulator_state__type_support.cpp.o[0m
+[6.644s] [ 72%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_msgs/msg/detail/dds_fastrtps/e_stop_state__type_support.cpp.o[0m
+[6.679s] [ 73%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_msgs/msg/detail/dds_fastrtps/foot_state__type_support.cpp.o[0m
+[6.684s] [ 73%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_msgs/msg/detail/dds_fastrtps/feedback__type_support.cpp.o[0m
+[6.709s] [ 73%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_msgs/msg/detail/dds_fastrtps/lease_resource__type_support.cpp.o[0m
+[6.714s] [ 73%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_msgs/msg/detail/dds_fastrtps/lease__type_support.cpp.o[0m
+[6.743s] [ 74%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_msgs/msg/detail/dds_fastrtps/power_state__type_support.cpp.o[0m
+[6.762s] [ 74%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_msgs/msg/detail/dds_fastrtps/system_fault_state__type_support.cpp.o[0m
+[7.269s] [ 74%] [32m[1mLinking CXX shared library libspot_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.334s] [ 74%] Built target spot_msgs__rosidl_typesupport_fastrtps_cpp
+[7.337s] [ 75%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.413s] [ 75%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_msgs/action/detail/navigate_to__type_support_c.cpp.o[0m
+[8.413s] [ 75%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_msgs/action/detail/trajectory__type_support_c.cpp.o[0m
+[8.413s] [ 75%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_msgs/srv/detail/list_graph__type_support_c.cpp.o[0m
+[8.413s] [ 75%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_msgs/srv/detail/dock__type_support_c.cpp.o[0m
+[8.414s] [ 76%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_msgs/srv/detail/clear_behavior_fault__type_support_c.cpp.o[0m
+[8.414s] [ 77%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_msgs/srv/detail/set_locomotion__type_support_c.cpp.o[0m
+[8.414s] [ 77%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_msgs/srv/detail/set_velocity__type_support_c.cpp.o[0m
+[8.414s] [ 77%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_msgs/srv/detail/arm_force_trajectory__type_support_c.cpp.o[0m
+[8.415s] [ 78%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_msgs/srv/detail/arm_joint_movement__type_support_c.cpp.o[0m
+[8.416s] [ 78%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_msgs/srv/detail/constrained_arm_joint_movement__type_support_c.cpp.o[0m
+[8.417s] [ 79%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_msgs/srv/detail/hand_pose__type_support_c.cpp.o[0m
+[8.417s] [ 79%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_msgs/srv/detail/gripper_angle_move__type_support_c.cpp.o[0m
+[8.417s] [ 79%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_msgs/msg/detail/dock_state__type_support_c.cpp.o[0m
+[8.418s] [ 79%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_msgs/msg/detail/battery_state_array__type_support_c.cpp.o[0m
+[8.418s] [ 79%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_msgs/msg/detail/e_stop_state_array__type_support_c.cpp.o[0m
+[8.419s] [ 80%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_msgs/msg/detail/behavior_fault__type_support_c.cpp.o[0m
+[8.419s] [ 81%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_msgs/msg/detail/foot_state_array__type_support_c.cpp.o[0m
+[8.421s] [ 81%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_msgs/msg/detail/lease_owner__type_support_c.cpp.o[0m
+[8.424s] [ 81%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_msgs/msg/detail/lease_array__type_support_c.cpp.o[0m
+[8.439s] [ 82%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_msgs/msg/detail/mobility_params__type_support_c.cpp.o[0m
+[8.730s] [ 82%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_msgs/msg/detail/metrics__type_support_c.cpp.o[0m
+[8.735s] [ 82%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_msgs/msg/detail/system_fault__type_support_c.cpp.o[0m
+[8.747s] [ 83%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_msgs/msg/detail/wi_fi_state__type_support_c.cpp.o[0m
+[8.749s] [ 83%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_msgs/msg/detail/battery_state__type_support_c.cpp.o[0m
+[8.754s] [ 83%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_msgs/msg/detail/behavior_fault_state__type_support_c.cpp.o[0m
+[8.762s] [ 84%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_msgs/msg/detail/manipulator_state__type_support_c.cpp.o[0m
+[8.766s] [ 84%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_msgs/msg/detail/e_stop_state__type_support_c.cpp.o[0m
+[8.800s] [ 84%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_msgs/msg/detail/feedback__type_support_c.cpp.o[0m
+[8.818s] [ 85%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_msgs/msg/detail/foot_state__type_support_c.cpp.o[0m
+[8.822s] [ 85%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_msgs/msg/detail/lease__type_support_c.cpp.o[0m
+[8.829s] [ 85%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_msgs/msg/detail/lease_resource__type_support_c.cpp.o[0m
+[8.831s] [ 86%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_msgs/msg/detail/power_state__type_support_c.cpp.o[0m
+[8.839s] [ 86%] [32mBuilding CXX object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_msgs/msg/detail/system_fault_state__type_support_c.cpp.o[0m
+[9.215s] [ 87%] [32m[1mLinking CXX shared library libspot_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[9.268s] [ 87%] Built target spot_msgs__rosidl_typesupport_fastrtps_c
+[9.273s] [ 87%] Built target spot_msgs
+[9.278s] [ 87%] [34m[1mGenerating Python code for ROS interfaces[0m
+[12.005s] [ 87%] Built target spot_msgs__py
+[12.010s] [ 88%] [32mBuilding C object CMakeFiles/spot_msgs__python.dir/rosidl_generator_py/spot_msgs/action/_navigate_to_s.c.o[0m
+[12.010s] [ 88%] [32mBuilding C object CMakeFiles/spot_msgs__python.dir/rosidl_generator_py/spot_msgs/action/_trajectory_s.c.o[0m
+[12.010s] [ 88%] [32mBuilding C object CMakeFiles/spot_msgs__python.dir/rosidl_generator_py/spot_msgs/srv/_clear_behavior_fault_s.c.o[0m
+[12.010s] [ 89%] [32mBuilding C object CMakeFiles/spot_msgs__python.dir/rosidl_generator_py/spot_msgs/srv/_list_graph_s.c.o[0m
+[12.010s] [ 89%] [32mBuilding C object CMakeFiles/spot_msgs__python.dir/rosidl_generator_py/spot_msgs/srv/_dock_s.c.o[0m
+[12.011s] [ 89%] [32mBuilding C object CMakeFiles/spot_msgs__python.dir/rosidl_generator_py/spot_msgs/srv/_set_locomotion_s.c.o[0m
+[12.011s] [ 90%] [32mBuilding C object CMakeFiles/spot_msgs__python.dir/rosidl_generator_py/spot_msgs/srv/_set_velocity_s.c.o[0m
+[12.012s] [ 90%] [32mBuilding C object CMakeFiles/spot_msgs__python.dir/rosidl_generator_py/spot_msgs/srv/_arm_joint_movement_s.c.o[0m
+[12.012s] [ 90%] [32mBuilding C object CMakeFiles/spot_msgs__python.dir/rosidl_generator_py/spot_msgs/srv/_arm_force_trajectory_s.c.o[0m
+[12.012s] [ 91%] [32mBuilding C object CMakeFiles/spot_msgs__python.dir/rosidl_generator_py/spot_msgs/srv/_constrained_arm_joint_movement_s.c.o[0m
+[12.013s] [ 91%] [32mBuilding C object CMakeFiles/spot_msgs__python.dir/rosidl_generator_py/spot_msgs/srv/_hand_pose_s.c.o[0m
+[12.013s] [ 91%] [32mBuilding C object CMakeFiles/spot_msgs__python.dir/rosidl_generator_py/spot_msgs/srv/_gripper_angle_move_s.c.o[0m
+[12.014s] [ 92%] [32mBuilding C object CMakeFiles/spot_msgs__python.dir/rosidl_generator_py/spot_msgs/msg/_battery_state_array_s.c.o[0m
+[12.014s] [ 92%] [32mBuilding C object CMakeFiles/spot_msgs__python.dir/rosidl_generator_py/spot_msgs/msg/_behavior_fault_s.c.o[0m
+[12.014s] [ 92%] [32mBuilding C object CMakeFiles/spot_msgs__python.dir/rosidl_generator_py/spot_msgs/msg/_dock_state_s.c.o[0m
+[12.014s] [ 93%] [32mBuilding C object CMakeFiles/spot_msgs__python.dir/rosidl_generator_py/spot_msgs/msg/_e_stop_state_array_s.c.o[0m
+[12.017s] [ 93%] [32mBuilding C object CMakeFiles/spot_msgs__python.dir/rosidl_generator_py/spot_msgs/msg/_foot_state_array_s.c.o[0m
+[12.018s] [ 93%] [32mBuilding C object CMakeFiles/spot_msgs__python.dir/rosidl_generator_py/spot_msgs/msg/_lease_array_s.c.o[0m
+[12.031s] [ 94%] [32mBuilding C object CMakeFiles/spot_msgs__python.dir/rosidl_generator_py/spot_msgs/msg/_lease_owner_s.c.o[0m
+[12.046s] [ 94%] [32mBuilding C object CMakeFiles/spot_msgs__python.dir/rosidl_generator_py/spot_msgs/msg/_mobility_params_s.c.o[0m
+[12.097s] [ 95%] [32mBuilding C object CMakeFiles/spot_msgs__python.dir/rosidl_generator_py/spot_msgs/msg/_system_fault_s.c.o[0m
+[12.097s] [ 95%] [32mBuilding C object CMakeFiles/spot_msgs__python.dir/rosidl_generator_py/spot_msgs/msg/_metrics_s.c.o[0m
+[12.104s] [ 95%] [32mBuilding C object CMakeFiles/spot_msgs__python.dir/rosidl_generator_py/spot_msgs/msg/_wi_fi_state_s.c.o[0m
+[12.105s] [ 95%] [32mBuilding C object CMakeFiles/spot_msgs__python.dir/rosidl_generator_py/spot_msgs/msg/_behavior_fault_state_s.c.o[0m
+[12.105s] [ 96%] [32mBuilding C object CMakeFiles/spot_msgs__python.dir/rosidl_generator_py/spot_msgs/msg/_battery_state_s.c.o[0m
+[12.105s] [ 97%] [32mBuilding C object CMakeFiles/spot_msgs__python.dir/rosidl_generator_py/spot_msgs/msg/_e_stop_state_s.c.o[0m
+[12.105s] [ 97%] [32mBuilding C object CMakeFiles/spot_msgs__python.dir/rosidl_generator_py/spot_msgs/msg/_manipulator_state_s.c.o[0m
+[12.106s] [ 97%] [32mBuilding C object CMakeFiles/spot_msgs__python.dir/rosidl_generator_py/spot_msgs/msg/_feedback_s.c.o[0m
+[12.106s] [ 97%] [32mBuilding C object CMakeFiles/spot_msgs__python.dir/rosidl_generator_py/spot_msgs/msg/_foot_state_s.c.o[0m
+[12.113s] [ 97%] [32mBuilding C object CMakeFiles/spot_msgs__python.dir/rosidl_generator_py/spot_msgs/msg/_power_state_s.c.o[0m
+[12.114s] [ 98%] [32mBuilding C object CMakeFiles/spot_msgs__python.dir/rosidl_generator_py/spot_msgs/msg/_system_fault_state_s.c.o[0m
+[12.117s] [ 99%] [32mBuilding C object CMakeFiles/spot_msgs__python.dir/rosidl_generator_py/spot_msgs/msg/_lease_s.c.o[0m
+[12.126s] [ 99%] [32mBuilding C object CMakeFiles/spot_msgs__python.dir/rosidl_generator_py/spot_msgs/msg/_lease_resource_s.c.o[0m
+[12.204s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/spot_msgs/libspot_msgs__python.so[0m
+[12.233s] [ 99%] Built target spot_msgs__python
+[12.238s] [ 99%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/spot_msgs/_spot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[12.238s] [ 99%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/spot_msgs/_spot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[12.238s] [100%] [32mBuilding C object CMakeFiles/spot_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/spot_msgs/_spot_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[12.382s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/spot_msgs/spot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[12.382s] [100%] [32m[1mLinking C shared library rosidl_generator_py/spot_msgs/spot_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[12.382s] [100%] [32m[1mLinking C shared library rosidl_generator_py/spot_msgs/spot_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[12.405s] [100%] Built target spot_msgs__rosidl_typesupport_introspection_c__pyext
+[12.405s] [100%] Built target spot_msgs__rosidl_typesupport_c__pyext
+[12.423s] [100%] Built target spot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[12.428s] Invoked command in '/home/caleb/ros2_ws/build/spot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --build /home/caleb/ros2_ws/build/spot_msgs -- -j20 -l20
+[12.647s] Invoking command in '/home/caleb/ros2_ws/build/spot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --install /home/caleb/ros2_ws/build/spot_msgs
+[12.650s] -- Install configuration: ""
+[12.651s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/ament_index/resource_index/rosidl_interfaces/spot_msgs
+[12.651s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs
+[12.651s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv
+[12.651s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/set_velocity.h
+[12.651s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/constrained_arm_joint_movement.h
+[12.651s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/hand_pose.h
+[12.651s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/arm_joint_movement.h
+[12.651s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/gripper_angle_move.h
+[12.651s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/list_graph.h
+[12.651s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail
+[12.651s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/set_locomotion__type_support.h
+[12.651s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/clear_behavior_fault__functions.c
+[12.651s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/arm_joint_movement__type_support.h
+[12.651s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/set_locomotion__functions.c
+[12.651s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/constrained_arm_joint_movement__functions.h
+[12.651s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/dock__functions.h
+[12.652s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/set_velocity__functions.c
+[12.652s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/clear_behavior_fault__struct.h
+[12.652s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/arm_force_trajectory__functions.c
+[12.652s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/gripper_angle_move__functions.c
+[12.652s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/hand_pose__struct.h
+[12.652s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/gripper_angle_move__functions.h
+[12.652s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/arm_force_trajectory__functions.h
+[12.652s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/arm_force_trajectory__struct.h
+[12.652s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/arm_joint_movement__functions.c
+[12.652s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/hand_pose__type_support.h
+[12.652s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/list_graph__functions.c
+[12.652s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/arm_joint_movement__functions.h
+[12.652s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/clear_behavior_fault__type_support.h
+[12.652s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/list_graph__functions.h
+[12.652s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/gripper_angle_move__struct.h
+[12.652s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/list_graph__type_support.h
+[12.652s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/dock__struct.h
+[12.652s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/gripper_angle_move__type_support.h
+[12.652s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/constrained_arm_joint_movement__struct.h
+[12.652s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/clear_behavior_fault__functions.h
+[12.652s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/hand_pose__functions.c
+[12.653s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/set_velocity__functions.h
+[12.653s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/set_velocity__struct.h
+[12.653s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/dock__functions.c
+[12.653s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/set_locomotion__functions.h
+[12.653s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/dock__type_support.h
+[12.653s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/hand_pose__functions.h
+[12.653s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/arm_joint_movement__struct.h
+[12.653s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/set_locomotion__struct.h
+[12.653s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/set_velocity__type_support.h
+[12.653s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/constrained_arm_joint_movement__functions.c
+[12.653s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/list_graph__struct.h
+[12.653s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/arm_force_trajectory__type_support.h
+[12.653s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/constrained_arm_joint_movement__type_support.h
+[12.653s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/set_locomotion.h
+[12.653s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/dock.h
+[12.653s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/clear_behavior_fault.h
+[12.653s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/arm_force_trajectory.h
+[12.653s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg
+[12.653s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/rosidl_generator_c__visibility_control.h
+[12.653s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/manipulator_state.h
+[12.653s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/foot_state_array.h
+[12.654s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/system_fault_state.h
+[12.654s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/lease_resource.h
+[12.654s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/lease.h
+[12.654s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/foot_state.h
+[12.654s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/wi_fi_state.h
+[12.654s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/power_state.h
+[12.654s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/feedback.h
+[12.654s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/metrics.h
+[12.654s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/battery_state_array.h
+[12.654s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/dock_state.h
+[12.654s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/mobility_params.h
+[12.654s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/e_stop_state.h
+[12.654s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail
+[12.654s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/foot_state_array__type_support.h
+[12.654s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/dock_state__type_support.h
+[12.654s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/mobility_params__struct.h
+[12.654s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/wi_fi_state__struct.h
+[12.654s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/dock_state__functions.h
+[12.654s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/mobility_params__functions.c
+[12.654s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/battery_state__type_support.h
+[12.654s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_resource__type_support.h
+[12.654s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/foot_state_array__functions.h
+[12.655s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease__functions.c
+[12.655s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/e_stop_state__functions.h
+[12.655s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/mobility_params__type_support.h
+[12.655s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_resource__functions.c
+[12.655s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/system_fault_state__functions.h
+[12.655s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/power_state__struct.h
+[12.655s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/e_stop_state_array__type_support.h
+[12.655s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/dock_state__struct.h
+[12.655s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/foot_state__functions.h
+[12.655s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_array__functions.c
+[12.655s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/battery_state__functions.h
+[12.655s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/power_state__type_support.h
+[12.655s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/system_fault_state__functions.c
+[12.655s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/feedback__functions.h
+[12.655s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/wi_fi_state__functions.c
+[12.655s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/system_fault_state__type_support.h
+[12.655s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/e_stop_state__type_support.h
+[12.655s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/behavior_fault__type_support.h
+[12.655s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/feedback__type_support.h
+[12.655s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/behavior_fault_state__struct.h
+[12.655s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/foot_state_array__functions.c
+[12.655s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/behavior_fault_state__functions.h
+[12.656s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/mobility_params__functions.h
+[12.656s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/power_state__functions.c
+[12.656s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/foot_state_array__struct.h
+[12.656s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_owner__struct.h
+[12.656s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease__type_support.h
+[12.656s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/metrics__struct.h
+[12.656s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/battery_state_array__type_support.h
+[12.656s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/e_stop_state__functions.c
+[12.656s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_owner__type_support.h
+[12.656s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/behavior_fault_state__functions.c
+[12.656s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/battery_state__struct.h
+[12.656s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/manipulator_state__functions.h
+[12.656s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/behavior_fault__struct.h
+[12.656s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/metrics__functions.c
+[12.656s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/e_stop_state_array__functions.c
+[12.656s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/battery_state_array__functions.h
+[12.656s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/battery_state_array__struct.h
+[12.656s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease__struct.h
+[12.656s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/system_fault__functions.c
+[12.656s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_array__type_support.h
+[12.656s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/e_stop_state_array__struct.h
+[12.656s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_array__struct.h
+[12.657s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/wi_fi_state__functions.h
+[12.657s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/system_fault__struct.h
+[12.657s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/behavior_fault__functions.h
+[12.657s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/manipulator_state__type_support.h
+[12.657s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/manipulator_state__struct.h
+[12.657s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/foot_state__struct.h
+[12.657s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/manipulator_state__functions.c
+[12.657s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/feedback__functions.c
+[12.657s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/behavior_fault__functions.c
+[12.657s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/power_state__functions.h
+[12.657s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/dock_state__functions.c
+[12.657s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/metrics__type_support.h
+[12.657s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/foot_state__functions.c
+[12.657s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/behavior_fault_state__type_support.h
+[12.657s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_resource__struct.h
+[12.657s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_resource__functions.h
+[12.657s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_array__functions.h
+[12.657s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/wi_fi_state__type_support.h
+[12.657s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/battery_state_array__functions.c
+[12.657s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/metrics__functions.h
+[12.657s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_owner__functions.h
+[12.658s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease__functions.h
+[12.658s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/battery_state__functions.c
+[12.658s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_owner__functions.c
+[12.658s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/e_stop_state__struct.h
+[12.658s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/system_fault_state__struct.h
+[12.658s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/system_fault__type_support.h
+[12.658s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/feedback__struct.h
+[12.658s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/e_stop_state_array__functions.h
+[12.658s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/foot_state__type_support.h
+[12.658s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/system_fault__functions.h
+[12.658s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/lease_owner.h
+[12.658s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/system_fault.h
+[12.658s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/e_stop_state_array.h
+[12.658s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/lease_array.h
+[12.658s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/battery_state.h
+[12.658s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/behavior_fault.h
+[12.658s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/behavior_fault_state.h
+[12.658s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action
+[12.658s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/trajectory.h
+[12.658s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/detail
+[12.658s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/detail/navigate_to__type_support.h
+[12.658s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/detail/navigate_to__functions.h
+[12.658s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/detail/trajectory__functions.h
+[12.658s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/detail/trajectory__type_support.h
+[12.658s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/detail/trajectory__struct.h
+[12.659s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/detail/navigate_to__struct.h
+[12.659s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/detail/navigate_to__functions.c
+[12.659s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/detail/trajectory__functions.c
+[12.659s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/navigate_to.h
+[12.659s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/environment/library_path.sh
+[12.659s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/environment/library_path.dsv
+[12.659s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/libspot_msgs__rosidl_generator_c.so
+[12.659s] -- Set runtime path of "/home/caleb/ros2_ws/install/spot_msgs/lib/libspot_msgs__rosidl_generator_c.so" to ""
+[12.659s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs
+[12.659s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv
+[12.659s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail
+[12.659s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/hand_pose__rosidl_typesupport_fastrtps_c.h
+[12.659s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/arm_force_trajectory__rosidl_typesupport_fastrtps_c.h
+[12.659s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/set_locomotion__rosidl_typesupport_fastrtps_c.h
+[12.659s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/list_graph__rosidl_typesupport_fastrtps_c.h
+[12.660s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/constrained_arm_joint_movement__rosidl_typesupport_fastrtps_c.h
+[12.660s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/arm_joint_movement__rosidl_typesupport_fastrtps_c.h
+[12.660s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/set_velocity__rosidl_typesupport_fastrtps_c.h
+[12.660s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/gripper_angle_move__rosidl_typesupport_fastrtps_c.h
+[12.660s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/clear_behavior_fault__rosidl_typesupport_fastrtps_c.h
+[12.660s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/dock__rosidl_typesupport_fastrtps_c.h
+[12.660s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg
+[12.660s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail
+[12.660s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/dock_state__rosidl_typesupport_fastrtps_c.h
+[12.660s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/mobility_params__rosidl_typesupport_fastrtps_c.h
+[12.660s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease__rosidl_typesupport_fastrtps_c.h
+[12.660s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_owner__rosidl_typesupport_fastrtps_c.h
+[12.660s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/system_fault_state__rosidl_typesupport_fastrtps_c.h
+[12.660s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/foot_state_array__rosidl_typesupport_fastrtps_c.h
+[12.660s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/battery_state_array__rosidl_typesupport_fastrtps_c.h
+[12.660s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/e_stop_state_array__rosidl_typesupport_fastrtps_c.h
+[12.660s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/manipulator_state__rosidl_typesupport_fastrtps_c.h
+[12.660s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/e_stop_state__rosidl_typesupport_fastrtps_c.h
+[12.660s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/feedback__rosidl_typesupport_fastrtps_c.h
+[12.660s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/system_fault__rosidl_typesupport_fastrtps_c.h
+[12.660s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_array__rosidl_typesupport_fastrtps_c.h
+[12.661s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_resource__rosidl_typesupport_fastrtps_c.h
+[12.661s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/wi_fi_state__rosidl_typesupport_fastrtps_c.h
+[12.661s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/behavior_fault__rosidl_typesupport_fastrtps_c.h
+[12.661s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/behavior_fault_state__rosidl_typesupport_fastrtps_c.h
+[12.661s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/battery_state__rosidl_typesupport_fastrtps_c.h
+[12.661s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/metrics__rosidl_typesupport_fastrtps_c.h
+[12.661s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/foot_state__rosidl_typesupport_fastrtps_c.h
+[12.661s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/power_state__rosidl_typesupport_fastrtps_c.h
+[12.661s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.661s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action
+[12.661s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/detail
+[12.661s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/detail/navigate_to__rosidl_typesupport_fastrtps_c.h
+[12.661s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/detail/trajectory__rosidl_typesupport_fastrtps_c.h
+[12.661s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/libspot_msgs__rosidl_typesupport_fastrtps_c.so
+[12.661s] -- Set runtime path of "/home/caleb/ros2_ws/install/spot_msgs/lib/libspot_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[12.661s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs
+[12.661s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv
+[12.661s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail
+[12.661s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/clear_behavior_fault__rosidl_typesupport_fastrtps_cpp.hpp
+[12.661s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/constrained_arm_joint_movement__rosidl_typesupport_fastrtps_cpp.hpp
+[12.661s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/arm_joint_movement__rosidl_typesupport_fastrtps_cpp.hpp
+[12.662s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/hand_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[12.662s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/gripper_angle_move__rosidl_typesupport_fastrtps_cpp.hpp
+[12.662s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/dock__rosidl_typesupport_fastrtps_cpp.hpp
+[12.662s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/set_locomotion__rosidl_typesupport_fastrtps_cpp.hpp
+[12.662s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/arm_force_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[12.662s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/list_graph__rosidl_typesupport_fastrtps_cpp.hpp
+[12.662s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/set_velocity__rosidl_typesupport_fastrtps_cpp.hpp
+[12.662s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/dds_fastrtps
+[12.662s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg
+[12.662s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.662s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail
+[12.662s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/system_fault_state__rosidl_typesupport_fastrtps_cpp.hpp
+[12.662s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/metrics__rosidl_typesupport_fastrtps_cpp.hpp
+[12.662s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/manipulator_state__rosidl_typesupport_fastrtps_cpp.hpp
+[12.662s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/behavior_fault__rosidl_typesupport_fastrtps_cpp.hpp
+[12.662s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/dock_state__rosidl_typesupport_fastrtps_cpp.hpp
+[12.662s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_owner__rosidl_typesupport_fastrtps_cpp.hpp
+[12.662s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/system_fault__rosidl_typesupport_fastrtps_cpp.hpp
+[12.662s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[12.662s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/mobility_params__rosidl_typesupport_fastrtps_cpp.hpp
+[12.662s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/battery_state_array__rosidl_typesupport_fastrtps_cpp.hpp
+[12.663s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/e_stop_state_array__rosidl_typesupport_fastrtps_cpp.hpp
+[12.663s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/power_state__rosidl_typesupport_fastrtps_cpp.hpp
+[12.663s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/battery_state__rosidl_typesupport_fastrtps_cpp.hpp
+[12.663s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease__rosidl_typesupport_fastrtps_cpp.hpp
+[12.663s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_resource__rosidl_typesupport_fastrtps_cpp.hpp
+[12.663s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/foot_state__rosidl_typesupport_fastrtps_cpp.hpp
+[12.663s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/e_stop_state__rosidl_typesupport_fastrtps_cpp.hpp
+[12.663s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/wi_fi_state__rosidl_typesupport_fastrtps_cpp.hpp
+[12.663s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/foot_state_array__rosidl_typesupport_fastrtps_cpp.hpp
+[12.663s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/behavior_fault_state__rosidl_typesupport_fastrtps_cpp.hpp
+[12.663s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_array__rosidl_typesupport_fastrtps_cpp.hpp
+[12.663s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/dds_fastrtps
+[12.663s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action
+[12.663s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/detail
+[12.663s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/detail/navigate_to__rosidl_typesupport_fastrtps_cpp.hpp
+[12.663s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/detail/trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[12.663s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/detail/dds_fastrtps
+[12.663s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/libspot_msgs__rosidl_typesupport_fastrtps_cpp.so
+[12.664s] -- Set runtime path of "/home/caleb/ros2_ws/install/spot_msgs/lib/libspot_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[12.664s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs
+[12.664s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv
+[12.664s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail
+[12.664s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/dock__rosidl_typesupport_introspection_c.h
+[12.664s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/set_velocity__rosidl_typesupport_introspection_c.h
+[12.664s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/clear_behavior_fault__rosidl_typesupport_introspection_c.h
+[12.664s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/hand_pose__rosidl_typesupport_introspection_c.h
+[12.664s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/hand_pose__type_support.c
+[12.664s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/dock__type_support.c
+[12.664s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/constrained_arm_joint_movement__type_support.c
+[12.664s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/list_graph__rosidl_typesupport_introspection_c.h
+[12.664s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/arm_force_trajectory__type_support.c
+[12.665s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/gripper_angle_move__type_support.c
+[12.665s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/arm_joint_movement__rosidl_typesupport_introspection_c.h
+[12.665s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/set_locomotion__type_support.c
+[12.665s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/constrained_arm_joint_movement__rosidl_typesupport_introspection_c.h
+[12.665s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/clear_behavior_fault__type_support.c
+[12.665s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/arm_force_trajectory__rosidl_typesupport_introspection_c.h
+[12.665s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/set_locomotion__rosidl_typesupport_introspection_c.h
+[12.665s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/set_velocity__type_support.c
+[12.665s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/arm_joint_movement__type_support.c
+[12.665s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/list_graph__type_support.c
+[12.665s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/gripper_angle_move__rosidl_typesupport_introspection_c.h
+[12.665s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg
+[12.665s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.665s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail
+[12.665s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_resource__rosidl_typesupport_introspection_c.h
+[12.665s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/foot_state__type_support.c
+[12.665s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/feedback__rosidl_typesupport_introspection_c.h
+[12.665s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/mobility_params__rosidl_typesupport_introspection_c.h
+[12.665s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/mobility_params__type_support.c
+[12.665s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_owner__rosidl_typesupport_introspection_c.h
+[12.665s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/manipulator_state__type_support.c
+[12.666s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease__type_support.c
+[12.666s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_resource__type_support.c
+[12.666s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/behavior_fault_state__type_support.c
+[12.666s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/power_state__rosidl_typesupport_introspection_c.h
+[12.666s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/foot_state_array__type_support.c
+[12.666s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/battery_state__rosidl_typesupport_introspection_c.h
+[12.666s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/manipulator_state__rosidl_typesupport_introspection_c.h
+[12.666s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/feedback__type_support.c
+[12.666s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/battery_state_array__rosidl_typesupport_introspection_c.h
+[12.666s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_array__type_support.c
+[12.666s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/wi_fi_state__type_support.c
+[12.666s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/system_fault__type_support.c
+[12.666s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/system_fault_state__rosidl_typesupport_introspection_c.h
+[12.666s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/metrics__rosidl_typesupport_introspection_c.h
+[12.666s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/behavior_fault__type_support.c
+[12.666s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/battery_state_array__type_support.c
+[12.666s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/dock_state__type_support.c
+[12.666s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/wi_fi_state__rosidl_typesupport_introspection_c.h
+[12.666s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/battery_state__type_support.c
+[12.666s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/behavior_fault_state__rosidl_typesupport_introspection_c.h
+[12.666s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/e_stop_state__rosidl_typesupport_introspection_c.h
+[12.666s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/foot_state_array__rosidl_typesupport_introspection_c.h
+[12.667s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/system_fault_state__type_support.c
+[12.667s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_owner__type_support.c
+[12.667s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_array__rosidl_typesupport_introspection_c.h
+[12.667s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/e_stop_state_array__type_support.c
+[12.667s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/metrics__type_support.c
+[12.667s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/system_fault__rosidl_typesupport_introspection_c.h
+[12.667s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/e_stop_state_array__rosidl_typesupport_introspection_c.h
+[12.667s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/e_stop_state__type_support.c
+[12.667s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/power_state__type_support.c
+[12.667s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/foot_state__rosidl_typesupport_introspection_c.h
+[12.667s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/behavior_fault__rosidl_typesupport_introspection_c.h
+[12.667s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease__rosidl_typesupport_introspection_c.h
+[12.667s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/dock_state__rosidl_typesupport_introspection_c.h
+[12.667s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action
+[12.667s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/detail
+[12.667s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/detail/navigate_to__type_support.c
+[12.667s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/detail/navigate_to__rosidl_typesupport_introspection_c.h
+[12.667s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/detail/trajectory__rosidl_typesupport_introspection_c.h
+[12.667s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/detail/trajectory__type_support.c
+[12.667s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/libspot_msgs__rosidl_typesupport_introspection_c.so
+[12.668s] -- Set runtime path of "/home/caleb/ros2_ws/install/spot_msgs/lib/libspot_msgs__rosidl_typesupport_introspection_c.so" to ""
+[12.668s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/libspot_msgs__rosidl_typesupport_c.so
+[12.668s] -- Set runtime path of "/home/caleb/ros2_ws/install/spot_msgs/lib/libspot_msgs__rosidl_typesupport_c.so" to ""
+[12.668s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs
+[12.668s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv
+[12.668s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/arm_force_trajectory.hpp
+[12.668s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/arm_joint_movement.hpp
+[12.668s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/list_graph.hpp
+[12.668s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/constrained_arm_joint_movement.hpp
+[12.668s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/set_velocity.hpp
+[12.668s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/hand_pose.hpp
+[12.668s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/clear_behavior_fault.hpp
+[12.668s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/dock.hpp
+[12.668s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail
+[12.668s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/hand_pose__struct.hpp
+[12.668s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/arm_force_trajectory__traits.hpp
+[12.669s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/list_graph__struct.hpp
+[12.669s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/set_locomotion__traits.hpp
+[12.669s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/dock__traits.hpp
+[12.669s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/set_velocity__traits.hpp
+[12.669s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/hand_pose__traits.hpp
+[12.669s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/set_velocity__builder.hpp
+[12.669s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/list_graph__traits.hpp
+[12.669s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/list_graph__builder.hpp
+[12.669s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/clear_behavior_fault__struct.hpp
+[12.669s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/constrained_arm_joint_movement__struct.hpp
+[12.669s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/arm_joint_movement__traits.hpp
+[12.669s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/gripper_angle_move__traits.hpp
+[12.669s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/arm_force_trajectory__builder.hpp
+[12.669s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/gripper_angle_move__struct.hpp
+[12.669s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/hand_pose__builder.hpp
+[12.669s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/arm_force_trajectory__struct.hpp
+[12.669s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/gripper_angle_move__builder.hpp
+[12.669s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/clear_behavior_fault__builder.hpp
+[12.669s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/set_locomotion__struct.hpp
+[12.669s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/arm_joint_movement__builder.hpp
+[12.669s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/clear_behavior_fault__traits.hpp
+[12.670s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/set_locomotion__builder.hpp
+[12.670s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/constrained_arm_joint_movement__builder.hpp
+[12.670s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/set_velocity__struct.hpp
+[12.670s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/constrained_arm_joint_movement__traits.hpp
+[12.670s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/dock__builder.hpp
+[12.670s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/arm_joint_movement__struct.hpp
+[12.670s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/dock__struct.hpp
+[12.670s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/gripper_angle_move.hpp
+[12.670s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/set_locomotion.hpp
+[12.670s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg
+[12.670s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/manipulator_state.hpp
+[12.670s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/power_state.hpp
+[12.670s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/foot_state.hpp
+[12.670s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/e_stop_state.hpp
+[12.670s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/behavior_fault_state.hpp
+[12.670s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/dock_state.hpp
+[12.670s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/mobility_params.hpp
+[12.670s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/wi_fi_state.hpp
+[12.670s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/battery_state_array.hpp
+[12.670s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/behavior_fault.hpp
+[12.670s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/lease_resource.hpp
+[12.670s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/foot_state_array.hpp
+[12.671s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail
+[12.671s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/battery_state__builder.hpp
+[12.671s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/system_fault_state__traits.hpp
+[12.671s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/behavior_fault_state__traits.hpp
+[12.671s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_array__traits.hpp
+[12.671s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/e_stop_state_array__builder.hpp
+[12.671s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/battery_state_array__traits.hpp
+[12.671s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/battery_state__struct.hpp
+[12.671s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_resource__traits.hpp
+[12.671s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/behavior_fault_state__builder.hpp
+[12.671s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/dock_state__traits.hpp
+[12.671s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/manipulator_state__builder.hpp
+[12.671s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/system_fault__builder.hpp
+[12.671s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/battery_state_array__builder.hpp
+[12.671s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/wi_fi_state__struct.hpp
+[12.671s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/metrics__traits.hpp
+[12.671s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/wi_fi_state__traits.hpp
+[12.671s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/behavior_fault_state__struct.hpp
+[12.671s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/system_fault__traits.hpp
+[12.671s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/wi_fi_state__builder.hpp
+[12.671s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/e_stop_state_array__traits.hpp
+[12.671s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/feedback__struct.hpp
+[12.672s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_array__builder.hpp
+[12.672s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/dock_state__struct.hpp
+[12.672s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/manipulator_state__traits.hpp
+[12.672s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/system_fault_state__struct.hpp
+[12.672s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/behavior_fault__struct.hpp
+[12.672s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease__traits.hpp
+[12.672s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_array__struct.hpp
+[12.672s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/feedback__builder.hpp
+[12.672s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/metrics__struct.hpp
+[12.672s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/foot_state_array__struct.hpp
+[12.672s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_owner__struct.hpp
+[12.672s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/foot_state__traits.hpp
+[12.672s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease__builder.hpp
+[12.672s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/dock_state__builder.hpp
+[12.672s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_resource__struct.hpp
+[12.672s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/e_stop_state__traits.hpp
+[12.672s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/mobility_params__traits.hpp
+[12.672s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/power_state__builder.hpp
+[12.672s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/mobility_params__struct.hpp
+[12.672s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/mobility_params__builder.hpp
+[12.672s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_resource__builder.hpp
+[12.673s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/foot_state__builder.hpp
+[12.673s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/manipulator_state__struct.hpp
+[12.673s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease__struct.hpp
+[12.673s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/power_state__traits.hpp
+[12.673s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/battery_state_array__struct.hpp
+[12.673s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/foot_state_array__traits.hpp
+[12.673s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/foot_state__struct.hpp
+[12.673s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/feedback__traits.hpp
+[12.673s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_owner__traits.hpp
+[12.673s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/e_stop_state_array__struct.hpp
+[12.673s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/power_state__struct.hpp
+[12.673s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/e_stop_state__builder.hpp
+[12.673s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/system_fault_state__builder.hpp
+[12.673s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/system_fault__struct.hpp
+[12.673s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/behavior_fault__builder.hpp
+[12.673s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/metrics__builder.hpp
+[12.673s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/e_stop_state__struct.hpp
+[12.673s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/foot_state_array__builder.hpp
+[12.673s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_owner__builder.hpp
+[12.673s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/behavior_fault__traits.hpp
+[12.673s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/battery_state__traits.hpp
+[12.673s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/lease.hpp
+[12.674s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/metrics.hpp
+[12.674s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/e_stop_state_array.hpp
+[12.674s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/battery_state.hpp
+[12.674s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/lease_array.hpp
+[12.674s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/feedback.hpp
+[12.674s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/lease_owner.hpp
+[12.674s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/system_fault.hpp
+[12.674s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/system_fault_state.hpp
+[12.674s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action
+[12.674s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/trajectory.hpp
+[12.674s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/detail
+[12.674s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/detail/trajectory__struct.hpp
+[12.674s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/detail/navigate_to__builder.hpp
+[12.674s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/detail/navigate_to__struct.hpp
+[12.674s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/detail/trajectory__traits.hpp
+[12.674s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/detail/trajectory__builder.hpp
+[12.674s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/detail/navigate_to__traits.hpp
+[12.674s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/navigate_to.hpp
+[12.674s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs
+[12.674s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv
+[12.674s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail
+[12.674s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/clear_behavior_fault__type_support.cpp
+[12.674s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/list_graph__type_support.cpp
+[12.675s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/constrained_arm_joint_movement__type_support.cpp
+[12.675s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/arm_joint_movement__type_support.cpp
+[12.675s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/list_graph__rosidl_typesupport_introspection_cpp.hpp
+[12.675s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/hand_pose__type_support.cpp
+[12.675s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/set_locomotion__type_support.cpp
+[12.675s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/arm_force_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[12.675s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/hand_pose__rosidl_typesupport_introspection_cpp.hpp
+[12.675s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/set_locomotion__rosidl_typesupport_introspection_cpp.hpp
+[12.675s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/arm_joint_movement__rosidl_typesupport_introspection_cpp.hpp
+[12.675s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/set_velocity__type_support.cpp
+[12.675s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/dock__rosidl_typesupport_introspection_cpp.hpp
+[12.675s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/dock__type_support.cpp
+[12.675s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/set_velocity__rosidl_typesupport_introspection_cpp.hpp
+[12.675s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/gripper_angle_move__type_support.cpp
+[12.675s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/arm_force_trajectory__type_support.cpp
+[12.675s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/constrained_arm_joint_movement__rosidl_typesupport_introspection_cpp.hpp
+[12.675s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/gripper_angle_move__rosidl_typesupport_introspection_cpp.hpp
+[12.675s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/srv/detail/clear_behavior_fault__rosidl_typesupport_introspection_cpp.hpp
+[12.675s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg
+[12.675s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail
+[12.675s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/metrics__rosidl_typesupport_introspection_cpp.hpp
+[12.676s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/behavior_fault__rosidl_typesupport_introspection_cpp.hpp
+[12.676s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/behavior_fault__type_support.cpp
+[12.676s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/power_state__rosidl_typesupport_introspection_cpp.hpp
+[12.676s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/system_fault__rosidl_typesupport_introspection_cpp.hpp
+[12.676s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/wi_fi_state__type_support.cpp
+[12.676s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/feedback__rosidl_typesupport_introspection_cpp.hpp
+[12.676s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/wi_fi_state__rosidl_typesupport_introspection_cpp.hpp
+[12.676s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/foot_state__rosidl_typesupport_introspection_cpp.hpp
+[12.676s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/battery_state_array__rosidl_typesupport_introspection_cpp.hpp
+[12.676s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/manipulator_state__type_support.cpp
+[12.676s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/manipulator_state__rosidl_typesupport_introspection_cpp.hpp
+[12.676s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/dock_state__rosidl_typesupport_introspection_cpp.hpp
+[12.676s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/e_stop_state_array__type_support.cpp
+[12.676s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/behavior_fault_state__type_support.cpp
+[12.676s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/system_fault_state__type_support.cpp
+[12.676s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/dock_state__type_support.cpp
+[12.676s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/mobility_params__rosidl_typesupport_introspection_cpp.hpp
+[12.676s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/foot_state__type_support.cpp
+[12.676s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/metrics__type_support.cpp
+[12.676s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_owner__rosidl_typesupport_introspection_cpp.hpp
+[12.676s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease__type_support.cpp
+[12.676s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/battery_state__type_support.cpp
+[12.676s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/battery_state__rosidl_typesupport_introspection_cpp.hpp
+[12.677s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease__rosidl_typesupport_introspection_cpp.hpp
+[12.677s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/e_stop_state__rosidl_typesupport_introspection_cpp.hpp
+[12.677s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_array__rosidl_typesupport_introspection_cpp.hpp
+[12.677s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_owner__type_support.cpp
+[12.677s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/system_fault_state__rosidl_typesupport_introspection_cpp.hpp
+[12.677s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/battery_state_array__type_support.cpp
+[12.677s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/system_fault__type_support.cpp
+[12.677s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_array__type_support.cpp
+[12.677s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/power_state__type_support.cpp
+[12.677s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/foot_state_array__type_support.cpp
+[12.677s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/e_stop_state_array__rosidl_typesupport_introspection_cpp.hpp
+[12.677s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_resource__type_support.cpp
+[12.677s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/behavior_fault_state__rosidl_typesupport_introspection_cpp.hpp
+[12.677s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/lease_resource__rosidl_typesupport_introspection_cpp.hpp
+[12.677s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/e_stop_state__type_support.cpp
+[12.677s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/mobility_params__type_support.cpp
+[12.677s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/foot_state_array__rosidl_typesupport_introspection_cpp.hpp
+[12.677s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/msg/detail/feedback__type_support.cpp
+[12.677s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action
+[12.677s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/detail
+[12.677s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/detail/trajectory__rosidl_typesupport_introspection_cpp.hpp
+[12.677s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/detail/navigate_to__rosidl_typesupport_introspection_cpp.hpp
+[12.677s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/detail/trajectory__type_support.cpp
+[12.677s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/include/spot_msgs/action/detail/navigate_to__type_support.cpp
+[12.677s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/libspot_msgs__rosidl_typesupport_introspection_cpp.so
+[12.678s] -- Set runtime path of "/home/caleb/ros2_ws/install/spot_msgs/lib/libspot_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[12.678s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/libspot_msgs__rosidl_typesupport_cpp.so
+[12.678s] -- Set runtime path of "/home/caleb/ros2_ws/install/spot_msgs/lib/libspot_msgs__rosidl_typesupport_cpp.so" to ""
+[12.679s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/environment/pythonpath.sh
+[12.679s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/environment/pythonpath.dsv
+[12.679s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/__init__.py
+[12.697s] Compiling '/home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/__init__.py'...
+[12.699s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/action
+[12.699s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/action/_navigate_to.py
+[12.699s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/action/__init__.py
+[12.699s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/action/_trajectory.py
+[12.699s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/action/_trajectory_s.c
+[12.700s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/action/_navigate_to_s.c
+[12.700s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/srv
+[12.700s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/srv/_gripper_angle_move_s.c
+[12.700s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/srv/_set_locomotion_s.c
+[12.700s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/srv/_list_graph_s.c
+[12.700s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/srv/_arm_joint_movement_s.c
+[12.700s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/srv/_arm_force_trajectory_s.c
+[12.700s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/srv/__init__.py
+[12.700s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/srv/_constrained_arm_joint_movement.py
+[12.700s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/srv/_clear_behavior_fault.py
+[12.700s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/srv/_set_locomotion.py
+[12.700s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/srv/_dock_s.c
+[12.700s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/srv/_set_velocity.py
+[12.700s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/srv/_gripper_angle_move.py
+[12.700s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/srv/_clear_behavior_fault_s.c
+[12.700s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/srv/_dock.py
+[12.700s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/srv/_arm_force_trajectory.py
+[12.700s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/srv/_arm_joint_movement.py
+[12.700s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/srv/_constrained_arm_joint_movement_s.c
+[12.700s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/srv/_set_velocity_s.c
+[12.701s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/srv/_hand_pose_s.c
+[12.701s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/srv/_hand_pose.py
+[12.701s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/srv/_list_graph.py
+[12.701s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg
+[12.701s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_lease_array.py
+[12.701s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_manipulator_state_s.c
+[12.701s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_feedback_s.c
+[12.701s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_lease_resource_s.c
+[12.701s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_lease_owner.py
+[12.701s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_battery_state_s.c
+[12.701s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_manipulator_state.py
+[12.701s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_foot_state_array_s.c
+[12.701s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_battery_state_array_s.c
+[12.701s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_power_state.py
+[12.701s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_dock_state_s.c
+[12.701s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_foot_state_array.py
+[12.701s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_system_fault_state_s.c
+[12.701s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_system_fault.py
+[12.701s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_lease_array_s.c
+[12.702s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_lease_resource.py
+[12.702s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/__init__.py
+[12.702s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_wi_fi_state_s.c
+[12.702s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_mobility_params.py
+[12.702s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_power_state_s.c
+[12.702s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_battery_state.py
+[12.702s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_system_fault_state.py
+[12.702s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_foot_state.py
+[12.702s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_metrics.py
+[12.702s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_dock_state.py
+[12.702s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_mobility_params_s.c
+[12.702s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_e_stop_state_array.py
+[12.702s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_wi_fi_state.py
+[12.702s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_foot_state_s.c
+[12.702s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_behavior_fault_s.c
+[12.702s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_e_stop_state_s.c
+[12.702s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_lease_owner_s.c
+[12.702s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_lease_s.c
+[12.702s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_behavior_fault_state_s.c
+[12.702s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_e_stop_state.py
+[12.702s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_system_fault_s.c
+[12.702s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_behavior_fault.py
+[12.703s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_battery_state_array.py
+[12.703s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_lease.py
+[12.703s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_feedback.py
+[12.703s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_behavior_fault_state.py
+[12.703s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_e_stop_state_array_s.c
+[12.703s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/msg/_metrics_s.c
+[12.703s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/spot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[12.703s] -- Set runtime path of "/home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/spot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[12.703s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/spot_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[12.704s] -- Set runtime path of "/home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/spot_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[12.704s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/spot_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[12.704s] -- Set runtime path of "/home/caleb/ros2_ws/install/spot_msgs/lib/python3.8/site-packages/spot_msgs/spot_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[12.704s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/lib/libspot_msgs__python.so
+[12.705s] -- Set runtime path of "/home/caleb/ros2_ws/install/spot_msgs/lib/libspot_msgs__python.so" to ""
+[12.705s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/action/NavigateTo.idl
+[12.705s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/action/Trajectory.idl
+[12.705s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/ClearBehaviorFault.idl
+[12.705s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/ListGraph.idl
+[12.705s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/Dock.idl
+[12.705s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/SetLocomotion.idl
+[12.705s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/SetVelocity.idl
+[12.705s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/ArmForceTrajectory.idl
+[12.705s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/ArmJointMovement.idl
+[12.705s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/ConstrainedArmJointMovement.idl
+[12.705s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/GripperAngleMove.idl
+[12.705s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/HandPose.idl
+[12.705s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/BatteryStateArray.idl
+[12.705s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/BehaviorFault.idl
+[12.706s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/DockState.idl
+[12.706s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/EStopStateArray.idl
+[12.706s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/FootStateArray.idl
+[12.706s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/LeaseArray.idl
+[12.706s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/LeaseOwner.idl
+[12.706s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/MobilityParams.idl
+[12.706s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/Metrics.idl
+[12.706s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/SystemFault.idl
+[12.706s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/WiFiState.idl
+[12.706s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/BatteryState.idl
+[12.706s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/BehaviorFaultState.idl
+[12.706s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/ManipulatorState.idl
+[12.706s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/EStopState.idl
+[12.706s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/Feedback.idl
+[12.706s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/FootState.idl
+[12.706s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/Lease.idl
+[12.706s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/LeaseResource.idl
+[12.707s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/PowerState.idl
+[12.707s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/SystemFaultState.idl
+[12.707s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/action/NavigateTo.action
+[12.707s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/action/Trajectory.action
+[12.707s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/ClearBehaviorFault.srv
+[12.707s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/ClearBehaviorFault_Request.msg
+[12.707s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/ClearBehaviorFault_Response.msg
+[12.707s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/ListGraph.srv
+[12.707s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/ListGraph_Request.msg
+[12.707s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/ListGraph_Response.msg
+[12.707s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/Dock.srv
+[12.707s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/Dock_Request.msg
+[12.707s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/Dock_Response.msg
+[12.707s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/SetLocomotion.srv
+[12.707s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/SetLocomotion_Request.msg
+[12.707s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/SetLocomotion_Response.msg
+[12.708s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/SetVelocity.srv
+[12.708s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/SetVelocity_Request.msg
+[12.708s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/SetVelocity_Response.msg
+[12.708s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/ArmForceTrajectory.srv
+[12.708s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/ArmForceTrajectory_Request.msg
+[12.708s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/ArmForceTrajectory_Response.msg
+[12.708s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/ArmJointMovement.srv
+[12.708s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/ArmJointMovement_Request.msg
+[12.708s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/ArmJointMovement_Response.msg
+[12.708s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/ConstrainedArmJointMovement.srv
+[12.708s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/ConstrainedArmJointMovement_Request.msg
+[12.708s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/ConstrainedArmJointMovement_Response.msg
+[12.708s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/GripperAngleMove.srv
+[12.708s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/GripperAngleMove_Request.msg
+[12.708s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/GripperAngleMove_Response.msg
+[12.708s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/HandPose.srv
+[12.708s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/HandPose_Request.msg
+[12.709s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/srv/HandPose_Response.msg
+[12.709s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/BatteryStateArray.msg
+[12.709s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/BehaviorFault.msg
+[12.709s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/DockState.msg
+[12.709s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/EStopStateArray.msg
+[12.709s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/FootStateArray.msg
+[12.709s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/LeaseArray.msg
+[12.709s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/LeaseOwner.msg
+[12.709s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/MobilityParams.msg
+[12.709s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/Metrics.msg
+[12.709s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/SystemFault.msg
+[12.709s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/WiFiState.msg
+[12.709s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/BatteryState.msg
+[12.709s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/BehaviorFaultState.msg
+[12.709s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/ManipulatorState.msg
+[12.709s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/EStopState.msg
+[12.710s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/Feedback.msg
+[12.710s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/FootState.msg
+[12.710s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/Lease.msg
+[12.710s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/LeaseResource.msg
+[12.710s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/PowerState.msg
+[12.710s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/msg/SystemFaultState.msg
+[12.710s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/ament_index/resource_index/package_run_dependencies/spot_msgs
+[12.710s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/ament_index/resource_index/parent_prefix_path/spot_msgs
+[12.710s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/environment/ament_prefix_path.sh
+[12.710s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/environment/ament_prefix_path.dsv
+[12.710s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/environment/path.sh
+[12.710s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/environment/path.dsv
+[12.710s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/local_setup.bash
+[12.710s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/local_setup.sh
+[12.710s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/local_setup.zsh
+[12.711s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/local_setup.dsv
+[12.711s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/package.dsv
+[12.711s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/ament_index/resource_index/packages/spot_msgs
+[12.711s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/cmake/spot_msgs__rosidl_generator_cExport.cmake
+[12.711s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/cmake/spot_msgs__rosidl_generator_cExport-noconfig.cmake
+[12.711s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/cmake/spot_msgs__rosidl_typesupport_introspection_cExport.cmake
+[12.711s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/cmake/spot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.711s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/cmake/spot_msgs__rosidl_typesupport_cExport.cmake
+[12.711s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/cmake/spot_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[12.711s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/cmake/spot_msgs__rosidl_generator_cppExport.cmake
+[12.711s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/cmake/spot_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[12.711s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/cmake/spot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.711s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/cmake/spot_msgs__rosidl_typesupport_cppExport.cmake
+[12.711s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/cmake/spot_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[12.712s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/cmake/rosidl_cmake-extras.cmake
+[12.712s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.712s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[12.712s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[12.712s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.712s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.712s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.712s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/cmake/spot_msgsConfig.cmake
+[12.712s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/cmake/spot_msgsConfig-version.cmake
+[12.712s] -- Installing: /home/caleb/ros2_ws/install/spot_msgs/share/spot_msgs/package.xml
+[12.714s] Invoked command in '/home/caleb/ros2_ws/build/spot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --install /home/caleb/ros2_ws/build/spot_msgs

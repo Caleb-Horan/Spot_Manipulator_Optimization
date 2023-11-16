@@ -1,0 +1,39 @@
+[0.579s] Invoking command in '/home/caleb/ros2_ws/build/spot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --build /home/caleb/ros2_ws/build/spot_navigation -- -j20 -l20
+[0.944s] Invoked command in '/home/caleb/ros2_ws/build/spot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --build /home/caleb/ros2_ws/build/spot_navigation -- -j20 -l20
+[0.960s] Invoking command in '/home/caleb/ros2_ws/build/spot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --install /home/caleb/ros2_ws/build/spot_navigation
+[0.987s] -- Install configuration: ""
+[0.988s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/launch
+[0.988s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/launch/octomap.launch.py
+[0.988s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/launch/slam.launch.py
+[0.989s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/launch/navigation_suite.launch.py
+[0.989s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/launch/amcl.launch.py
+[0.989s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/launch/navigation.launch.py
+[0.990s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/map
+[0.990s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/map/map.pgm
+[0.991s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/map/map.yaml
+[0.991s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/map/ahg.yaml
+[0.991s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/map/ahg.pgm
+[0.991s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/config
+[0.992s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/config/lidar_slam.yaml
+[0.992s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/config/lidar_with_map.yaml
+[0.993s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/config/lidar.yaml
+[0.993s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/config/octomap_params.yaml
+[0.993s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/config/spot.yaml
+[0.993s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/rviz
+[0.994s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/rviz/tb3_navigation2.rviz
+[0.994s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/ament_index/resource_index/package_run_dependencies/spot_navigation
+[0.994s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/ament_index/resource_index/parent_prefix_path/spot_navigation
+[0.994s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/environment/ament_prefix_path.sh
+[0.994s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/environment/ament_prefix_path.dsv
+[0.994s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/environment/path.sh
+[0.994s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/environment/path.dsv
+[0.995s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/local_setup.bash
+[0.995s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/local_setup.sh
+[0.995s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/local_setup.zsh
+[0.996s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/local_setup.dsv
+[0.996s] -- Installing: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/package.dsv
+[0.997s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/ament_index/resource_index/packages/spot_navigation
+[0.997s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/cmake/spot_navigationConfig.cmake
+[0.998s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/cmake/spot_navigationConfig-version.cmake
+[0.998s] -- Up-to-date: /home/caleb/ros2_ws/install/spot_navigation/share/spot_navigation/package.xml
+[1.149s] Invoked command in '/home/caleb/ros2_ws/build/spot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --install /home/caleb/ros2_ws/build/spot_navigation

@@ -1,0 +1,2 @@
+scripts
+spot_manipulation_driver

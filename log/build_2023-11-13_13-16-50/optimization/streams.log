@@ -1,0 +1,24 @@
+[0.108s] Invoking command in '/home/caleb/ros2_ws/build/optimization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --build /home/caleb/ros2_ws/build/optimization -- -j20 -l20
+[0.125s] [100%] Built target optimization
+[0.127s] Invoked command in '/home/caleb/ros2_ws/build/optimization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --build /home/caleb/ros2_ws/build/optimization -- -j20 -l20
+[0.139s] Invoking command in '/home/caleb/ros2_ws/build/optimization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --install /home/caleb/ros2_ws/build/optimization
+[0.140s] -- Install configuration: ""
+[0.140s] -- Up-to-date: /home/caleb/ros2_ws/install/optimization/share/optimization//launch
+[0.140s] -- Installing: /home/caleb/ros2_ws/install/optimization/share/optimization//launch/robot_simulation.launch.py
+[0.140s] -- Up-to-date: /home/caleb/ros2_ws/install/optimization/lib/optimization/optimization
+[0.140s] -- Up-to-date: /home/caleb/ros2_ws/install/optimization/share/ament_index/resource_index/package_run_dependencies/optimization
+[0.140s] -- Up-to-date: /home/caleb/ros2_ws/install/optimization/share/ament_index/resource_index/parent_prefix_path/optimization
+[0.140s] -- Up-to-date: /home/caleb/ros2_ws/install/optimization/share/optimization/environment/ament_prefix_path.sh
+[0.140s] -- Up-to-date: /home/caleb/ros2_ws/install/optimization/share/optimization/environment/ament_prefix_path.dsv
+[0.140s] -- Up-to-date: /home/caleb/ros2_ws/install/optimization/share/optimization/environment/path.sh
+[0.140s] -- Up-to-date: /home/caleb/ros2_ws/install/optimization/share/optimization/environment/path.dsv
+[0.140s] -- Up-to-date: /home/caleb/ros2_ws/install/optimization/share/optimization/local_setup.bash
+[0.140s] -- Up-to-date: /home/caleb/ros2_ws/install/optimization/share/optimization/local_setup.sh
+[0.140s] -- Up-to-date: /home/caleb/ros2_ws/install/optimization/share/optimization/local_setup.zsh
+[0.140s] -- Up-to-date: /home/caleb/ros2_ws/install/optimization/share/optimization/local_setup.dsv
+[0.140s] -- Installing: /home/caleb/ros2_ws/install/optimization/share/optimization/package.dsv
+[0.140s] -- Up-to-date: /home/caleb/ros2_ws/install/optimization/share/ament_index/resource_index/packages/optimization
+[0.140s] -- Up-to-date: /home/caleb/ros2_ws/install/optimization/share/optimization/cmake/optimizationConfig.cmake
+[0.140s] -- Up-to-date: /home/caleb/ros2_ws/install/optimization/share/optimization/cmake/optimizationConfig-version.cmake
+[0.141s] -- Up-to-date: /home/caleb/ros2_ws/install/optimization/share/optimization/package.xml
+[0.141s] Invoked command in '/home/caleb/ros2_ws/build/optimization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/caleb/ros2_ws/install/spot_driver:/home/caleb/ros2_ws/install/spot_manipulation_driver:/opt/ros/galactic /usr/local/bin/cmake --install /home/caleb/ros2_ws/build/optimization
